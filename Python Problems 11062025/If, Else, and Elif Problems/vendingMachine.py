@@ -29,7 +29,11 @@ def vendingMachine():
 
     # Part 2
     coins = ["quarters", "dimes", "nickels", "pennies"]
-    numOfEach = list(map(lambda x: int(input(f"Please enter how many {x} you are entering into the machine: ")), coins))
+    try:
+        numOfEach = list(map(lambda x: int(input(f"Please enter how many {x} you are entering into the machine: ")), coins))
+    except ValueError:
+        print("Input must be a number!")
+        sys.exit()
 
     # Part 3
     totVal = 0
