@@ -15,7 +15,7 @@ print(arr[:4])
 # negative slicing
 print(arr[-3:-1])
 
-# step
+# step (returns every other element from indices 1-5)
 print(arr[1:5:2])
 
 # slicing 2D array
