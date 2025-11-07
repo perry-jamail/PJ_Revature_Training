@@ -1,3 +1,0 @@
-This is the first line.
-This will overwrite any existing content.
-This line is appended.
