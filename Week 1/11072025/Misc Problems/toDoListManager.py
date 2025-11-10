@@ -13,8 +13,8 @@ toDoList = {}
 
 def listManager():
     while True:
-        op = input("\nPlease enter what operation you would like to perform on the list (add, view, mark as complete, save list, "
-                   "or delete). Press 'q' to quit: ")
+        op = input("\nPlease enter what operation you would like to perform on the list (add, view, mark as complete, "
+                   "save list, or delete). Press 'q' to quit: ")
         if op == "add":
             addTask()
         elif op == "view":
@@ -83,7 +83,5 @@ def deleteTask():
 def saveList(d):
     with open('toDoList.json', 'w') as file:
         json.dump(d, file, indent=4)
-
-    d = {}
 
 listManager()
