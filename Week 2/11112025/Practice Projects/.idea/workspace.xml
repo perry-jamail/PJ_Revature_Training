@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd7e1623-61aa-46d0-af24-e71af14ada14" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Project0/Employee App/Delete_Expenses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Project0/Employee App/expenses.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expense Tracker/expenseTracker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio Website (Flask)/portfolio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio Website (Flask)/projects.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio Website (Flask)/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio Website (Flask)/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio Website (Flask)/templates/project.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz App/questions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quiz App/quiz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project0/Employee App/Edit_Delete_Expenses.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Project0/Employee App/Edit_Expenses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project0/Employee App/Expense_History.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Project0/Employee App/Expense_History.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project0/Employee App/Expense_Manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Project0/Employee App/Expense_Manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project0/Employee App/Log_On.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Project0/Employee App/Log_On.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project0/Employee App/credentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Project0/Employee App/credentials.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="35LTYyNGLUMeFLVgcnEceTI0n7i" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.portfolio.executor": "Run",
+    "Python.quiz.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd7e1623-61aa-46d0-af24-e71af14ada14" name="Changes" comment="" />
+      <created>1762888405746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762888405746</updated>
+    </task>
+    <servers />
+  </component>
+</project>

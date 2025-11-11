@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+</head>
+<body>
+<h1>Projects</h1>
+<P>Below is a list of projects I have completed:</P>
+<table>
+    {% for key, value in list.items() %}
+        <tr>
+            <th> {{ key }} </th>
+            <td> {{ value }} </td>
+        </tr>
+    {% endfor %}
+</table>
+</body>
+<footer>
+    <a href="http://localhost:5000/">Home</a>
+</footer>
+</html>
