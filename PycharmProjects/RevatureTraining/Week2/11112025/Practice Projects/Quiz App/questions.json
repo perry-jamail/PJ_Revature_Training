@@ -1,0 +1,7 @@
+{
+  "True or false: Tuples in Python are mutable.": "False",
+  "How many arguments can a lambda expression have?": "Any number",
+  "If you would like to run a loop an indescript amount of times, which loop type would you use?": "While loop",
+  "If you call 'hello world'.split() and print this, what would be the output?": "['hello', 'world']",
+  "True or false: Strings in Python are immutable.": "True"
+}

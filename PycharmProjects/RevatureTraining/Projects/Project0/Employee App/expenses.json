@@ -1,0 +1,29 @@
+{
+  "admin": {
+    "expense1": {
+      "id": "1",
+      "date": "2025-11-11",
+      "amount": "100.00",
+      "category": "Business",
+      "status": "Approved",
+      "description": "General office supplies."
+    },
+    "expense2": {
+      "id": "3",
+      "date": "2025-11-11",
+      "amount": "200.00",
+      "category": "Personal",
+      "status": "Pending"
+    }
+  },
+  "perryjamail": {
+    "expense1": {
+      "id": "2",
+      "date": "2025-11-11",
+      "amount": "50.00",
+      "category": "Personal",
+      "status": "Denied",
+      "description": "Using company money for dinner."
+    }
+  }
+}
