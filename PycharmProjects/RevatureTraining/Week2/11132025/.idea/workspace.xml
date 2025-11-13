@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4243183b-84b9-4c1c-aff5-531cca676288" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11122025/Practice Assignments/src/MaxMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11122025/Practice Assignments/src/RowColumnSums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11132025/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11132025/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11132025/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11132025/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11132025/11132025.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11132025/src/Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11132025/src/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11132025/src/FactorialDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11132025/src/StringPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11132025/src/prac1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11132025/src/practice1/Calling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11132025/src/practice1/Functionality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11132025/src/practice2/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projects/Project0/EmployeeApp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projects/Project0/EmployeeApp/.idea/EmployeeApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projects/Project0/EmployeeApp/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projects/Project0/EmployeeApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projects/Project0/EmployeeApp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projects/Project0/EmployeeApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projects/Project0/EmployeeApp/Approved_Denied_Expenses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projects/Project0/EmployeeApp/Delete_Expenses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projects/Project0/EmployeeApp/Edit_Expenses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projects/Project0/EmployeeApp/Expense_History.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projects/Project0/EmployeeApp/Expense_Manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projects/Project0/EmployeeApp/Expense_Submission.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projects/Project0/EmployeeApp/Log_On.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projects/Project0/EmployeeApp/NextID.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projects/Project0/EmployeeApp/credentials.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Projects/Project0/EmployeeApp/expenses.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11122025/Practice Assignments/src/Print2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11122025/Practice Assignments/src/Print2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11122025/Practice Assignments/src/Sum2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week2/11122025/Practice Assignments/src/Sum2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Projects/Project0/Employee App/Expense_Manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Projects/Project0/Employee App/Expense_Manager.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="35R3sl9QBvdVwafIjgzw6F5cDiJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4243183b-84b9-4c1c-aff5-531cca676288" name="Changes" comment="" />
+      <created>1763059269054</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763059269054</updated>
+    </task>
+    <servers />
+  </component>
+</project>

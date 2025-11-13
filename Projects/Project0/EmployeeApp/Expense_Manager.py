@@ -4,6 +4,7 @@
 import Log_On as lg
 import Expense_History as his
 import Expense_Submission as sub
+import Approved_Denied_Expenses as ade
 import sys
 
 logged_in = False
@@ -11,7 +12,7 @@ username = ''
 def welcome():
     global logged_in, username
     login_or_create = input("Welcome to the Employee Expense Manager Application! Please enter (1) to login"
-                            " or (2) to create an account! ")
+                            " or (2) to create an account! >")
     if login_or_create == "1":
         logged_in, username = lg.login()
         if logged_in:
@@ -38,8 +39,7 @@ def application():
         elif op == '2':
             sub.add_expense_by_username(username)
         elif op == '3':
-            # TODO: Write functionality to handle viewing the approved or denied submitted expenses only
-            pass
+            ade.view_approved_denied_by_username(username)
         elif op == '4':
             # TODO: Write functionality to handle editing pending expenses only
             pass
