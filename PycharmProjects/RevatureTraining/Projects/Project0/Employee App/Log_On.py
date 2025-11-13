@@ -7,12 +7,12 @@ def login():
     credentials = openJSON()
     access = False
     while not access:
-        print("\nLogin:")
+        print("\n%% Login %%")
         username = input('Enter your username: ')
         if username in credentials:
             password = input('Enter your password: ')
             if credentials[username] == password:
-                print(f"Authentication Successful. Logged in as '{username}'.")
+                print(f"Authentication Successful. Logged in as '{username}'.\n")
                 return True, username
             else:
                 print('Username exists, but the password is incorrect.\n')
@@ -22,7 +22,7 @@ def login():
 # CRUD operation methods below
 
 def addCred():
-    print("\nNew Account Creation:")
+    print("\n%% New Account Creation %%")
     username = input('Enter your new account\'s username: ')
 
     credentials = openJSON()

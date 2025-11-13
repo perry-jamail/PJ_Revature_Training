@@ -3,13 +3,14 @@
 #  by specific usernames
 
 import json
+import pandas as pd
 
-# TODO: Make a better view of the expenses using pandas, and make the user acknowledge the list before moving back to options
 def view_expenses_by_username(username):
     with open('expenses.json', 'r') as file:
         expenses = json.load(file)
 
     if username in expenses:
-        print(expenses[username])
+        print(f"\n{pd.DataFrame.from_dict(expenses[username])}")
+        ak = input("\nPress enter to continue...\n")
     else:
-        print("There are no expenses listed for the logged-in user.")
+        print("There are no expenses listed for the logged-in user.\n")
