@@ -6,6 +6,7 @@ import Expense_History as his
 import Expense_Submission as sub
 import Approved_Denied_Expenses as ade
 import Edit_Expenses as ee
+import Delete_Expenses as de
 import sys
 
 logged_in = False
@@ -44,8 +45,7 @@ def application():
         elif op == '4':
             ee.edit_pending_expense_by_username(username)
         elif op == '5':
-            # TODO: Write functionality to handle deleting pending expenses only
-            pass
+            de.delete_pending_expense_by_username(username)
         elif op == 'q':
             print("Quitting application...")
             sys.exit()

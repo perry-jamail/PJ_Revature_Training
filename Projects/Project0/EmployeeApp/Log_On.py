@@ -1,13 +1,14 @@
 # Script for handling the employee sign-in and authentication processes
 # TODO: (Optional) Create logoff functionality
 import json
+import sys
 
 
 def login():
     credentials = openJSON()
-    access = False
-    while not access:
-        print("\n%% Login %%")
+    username = ''
+    while username != 'q':
+        print("\n%% Login ('q' to quit) %%")
         username = input('Enter your username: ')
         if username in credentials:
             password = input('Enter your password: ')
@@ -16,21 +17,27 @@ def login():
                 return True, username
             else:
                 print('Username exists, but the password is incorrect.\n')
-        else:
+        elif username != 'q':
             print('Username not found.\n')
+    if username == 'q':
+        print("Quitting application...")
+        sys.exit()
 
 # CRUD operation methods below
 
 def addCred():
-    print("\n%% New Account Creation %%")
+    print("\n%% New Account Creation ('q' to quit) %%")
     username = input('Enter your new account\'s username: ')
 
     credentials = openJSON()
-    if username not in credentials:
+    if username not in credentials and username != 'q':
         password = input('Enter your new account\'s password: ')
         credentials[username] = password
         saveCred(credentials)
         print(f"Account with the username '{username}' was successfully created.\n")
+    elif username == 'q':
+        print("Quitting application...")
+        sys.exit()
     else:
         print("Username already exists.\n")
 

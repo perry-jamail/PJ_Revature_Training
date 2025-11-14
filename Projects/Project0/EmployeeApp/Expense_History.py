@@ -1,5 +1,4 @@
 # Script for handling the view expense history requirement.
-
 import json
 import pandas as pd
 

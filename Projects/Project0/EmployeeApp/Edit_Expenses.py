@@ -45,7 +45,6 @@ def edit_selected_expense(expense, username, expenses):
             if inner_key == "id" or inner_key == "date" or inner_key == "status":
                 edited_expense[inner_key] = inner_value
             else:
-                # expense[outer_key][inner_key] = input(f"New {inner_key}: ")
                 edited_expense[inner_key] = input(f"New {inner_key}: ")
         expenseName = outer_key
 

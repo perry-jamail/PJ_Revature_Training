@@ -61,32 +61,6 @@
             "description": "Office supplies."
         }
     },
-    "admin": {
-        "expense1": {
-            "id": "1",
-            "date": "2025-11-11",
-            "amount": "100.00",
-            "category": "Business",
-            "status": "Approved",
-            "description": "General office supplies."
-        },
-        "expense3": {
-            "id": "4",
-            "date": "2025-11-12",
-            "amount": "50.00",
-            "category": "Tech",
-            "status": "Denied",
-            "description": ""
-        },
-        "expense2": {
-            "id": "3",
-            "date": "2025-11-12",
-            "amount": "300",
-            "category": "Personal",
-            "status": "Pending",
-            "description": "Laptop"
-        }
-    },
     "kenzierose": {
         "expense2": {
             "id": "13",
@@ -119,6 +93,32 @@
             "category": "Necessities",
             "status": "Pending",
             "description": "Gas"
+        }
+    },
+    "admin": {
+        "expense1": {
+            "id": "1",
+            "date": "2025-11-11",
+            "amount": "100.00",
+            "category": "Business",
+            "status": "Approved",
+            "description": "General office supplies."
+        },
+        "expense3": {
+            "id": "4",
+            "date": "2025-11-12",
+            "amount": "50.00",
+            "category": "Tech",
+            "status": "Denied",
+            "description": ""
+        },
+        "test2": {
+            "id": "18",
+            "date": "2025-11-13",
+            "amount": "test",
+            "category": "test",
+            "status": "Pending",
+            "description": "test"
         }
     }
 }
