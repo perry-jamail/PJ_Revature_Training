@@ -111,14 +111,6 @@
             "category": "Tech",
             "status": "Denied",
             "description": ""
-        },
-        "test2": {
-            "id": "18",
-            "date": "2025-11-13",
-            "amount": "test",
-            "category": "test",
-            "status": "Pending",
-            "description": "test"
         }
     }
 }

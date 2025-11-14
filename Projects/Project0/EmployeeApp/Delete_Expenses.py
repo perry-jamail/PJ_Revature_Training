@@ -50,4 +50,4 @@ def JSON_Functions(username, full_expense_list, expense):
     with open('expenses.json', 'w') as file:
         json.dump(full_expense_list, file, indent=4)
 
-    print(f"\n{expense_name} has been deleted.\n")
+    print(f"{expense_name} has been deleted.\n")
