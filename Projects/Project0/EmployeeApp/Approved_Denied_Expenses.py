@@ -16,6 +16,9 @@ def view_approved_denied_by_username(username):
                     if inner_value == "Approved" or inner_value == "Denied":
                         returnDict[outer_key] = inner_dict
 
-        print(f"\n{pd.DataFrame.from_dict(returnDict)}\n")
+        if returnDict:
+            print(f"\n{pd.DataFrame.from_dict(returnDict)}\n")
+        else:
+            print(f"\nUser '{username}' has no Approved or Denied expenses.\n")
     else:
         print("There are no expenses listed for the logged-in user.\n")

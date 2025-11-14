@@ -5,6 +5,7 @@ import Log_On as lg
 import Expense_History as his
 import Expense_Submission as sub
 import Approved_Denied_Expenses as ade
+import Edit_Expenses as ee
 import sys
 
 logged_in = False
@@ -41,8 +42,7 @@ def application():
         elif op == '3':
             ade.view_approved_denied_by_username(username)
         elif op == '4':
-            # TODO: Write functionality to handle editing pending expenses only
-            pass
+            ee.edit_pending_expense_by_username(username)
         elif op == '5':
             # TODO: Write functionality to handle deleting pending expenses only
             pass
