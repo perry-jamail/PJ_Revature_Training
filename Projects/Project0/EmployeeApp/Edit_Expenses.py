@@ -1,6 +1,10 @@
 # Script for handling the edit expenses requirement.
-# TODO: Add logging features
-import json
+import json, logging
+
+logging.basicConfig(filename="employeeApp.log",
+                    level=logging.INFO,
+                    filemode='a',
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 def edit_pending_expense_by_username(username):
     with open('expenses.json', 'r') as file:
@@ -22,7 +26,7 @@ def find_list_of_pending_expenses(username, expenses):
         exp_id = input("\nEnter the ID of the expense to edit: ")
         find_pending_expense_by_id(exp_id, pending_expenses, username, expenses)
     else:
-        print(f"There are no pending expenses for {username}.\n")
+        print(f"There are no pending expenses for '{username}'.\n")
 
 def find_pending_expense_by_id(expense_id, pending_expenses, username, expenses):
     expense = {}
@@ -63,4 +67,5 @@ def JSON_Functions(username, full_expense_list, edited_expense, expense_name):
     with open('expenses.json', 'w') as file:
         json.dump(full_expense_list, file, indent=4)
 
-    print(f"\n{expense_name} has been edited.\n")
+    print(f"\n'{expense_name}' has been edited.\n")
+    logging.warning(f"'{expense_name}' under account '{username}' has been edited.")

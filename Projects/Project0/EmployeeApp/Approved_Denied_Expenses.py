@@ -1,7 +1,12 @@
 # Script for handling the viewing of expense statuses requirement.
-# TODO: Add logging features
-import json
+import json, logging
 import pandas as pd
+
+logging.basicConfig(filename="employeeApp.log",
+                    level=logging.INFO,
+                    filemode='a',
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
 
 def view_approved_denied_by_username(username):
     with open('expenses.json', 'r') as file:
@@ -23,3 +28,5 @@ def view_approved_denied_by_username(username):
             print(f"\nUser '{username}' has no Approved or Denied expenses.\n")
     else:
         print("There are no expenses listed for the logged-in user.\n")
+
+    logging.info(f"Approved and denied expenses for {username} viewed.")

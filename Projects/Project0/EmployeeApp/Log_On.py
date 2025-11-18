@@ -1,8 +1,11 @@
 # Script for handling the employee sign-in and authentication processes
 # TODO: (Optional) Create logoff functionality
-# TODO: Add logging features
-import json
-import sys
+import json, sys, logging
+
+logging.basicConfig(filename="employeeApp.log",
+                    level=logging.INFO,
+                    filemode='a',
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 
 def login():
@@ -15,13 +18,16 @@ def login():
             password = input('Enter your password: ')
             if credentials[username] == password:
                 print(f"Authentication Successful. Logged in as '{username}'.\n")
+                logging.info(f"'{username}' logged in.")
                 return True, username
             else:
                 print('Username exists, but the password is incorrect.\n')
+                logging.warning(f"Unsuccessful login attempt for account '{username}'.")
         elif username != 'q':
             print('Username not found.\n')
     if username == 'q':
         print("Quitting application...")
+        logging.info("Application quit.")
         sys.exit()
 
 # CRUD operation methods below
@@ -36,11 +42,14 @@ def addCred():
         credentials[username] = password
         saveCred(credentials)
         print(f"Account with the username '{username}' was successfully created.\n")
+        logging.info(f"Account created with username '{username}'.")
     elif username == 'q':
         print("Quitting application...")
+        logging.info("Application quit.")
         sys.exit()
     else:
         print("Username already exists.\n")
+        logging.warning(f"Duplicate account creation attempted for '{username}'.")
 
 def removeCred():
     username = input('Enter the username of the account to remove: ')
@@ -50,6 +59,7 @@ def removeCred():
         credentials.pop(username)
         saveCred(credentials)
         print(f"Account with the username '{username}' was successfully removed.")
+        logging.warning(f"Account with username '{username}' was removed.")
 
 def updateUsername():
     username = input('Enter the current username of the account to update: ')
@@ -63,6 +73,7 @@ def updateUsername():
         saveCred(credentials)
         print(f"Account with the username '{username}' was successfully "
               f"updated with the new username of '{newUsername}'.")
+        logging.info(f"Account with username '{username}' changed username to '{newUsername}'.")
 
 def updatePassword():
     username = input('Enter the current username of the account to update: ')
@@ -74,6 +85,7 @@ def updatePassword():
         saveCred(credentials)
         print(f"The password associated with the account with the username "
               f"'{username}' was successfully updated.")
+        logging.info(f"Account with username '{username}' changed passwords.")
 
 # Utility methods below
 
@@ -81,7 +93,7 @@ def checkCred(username):
     credentials = openJSON()
 
     if username in credentials:
-        pswd = input(f'Enter the password associated with the account {username}: ')
+        pswd = input(f"Enter the password associated with the account '{username}': ")
         if credentials[username] == pswd:
             return True
         else:

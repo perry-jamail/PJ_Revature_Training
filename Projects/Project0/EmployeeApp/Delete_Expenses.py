@@ -1,6 +1,10 @@
 # Script for handling the delete expenses requirement
-# TODO: Add logging features
-import json
+import json, logging
+
+logging.basicConfig(filename="employeeApp.log",
+                    level=logging.INFO,
+                    filemode='a',
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 def delete_pending_expense_by_username(username):
     with open('expenses.json', 'r') as file:
@@ -22,7 +26,7 @@ def find_list_of_pending_expenses(username, expenses):
         exp_id = input("\nEnter the ID of the expense to delete: ")
         find_pending_expense_by_id(exp_id, pending_expenses, username, expenses)
     else:
-        print(f"There are no pending expenses for {username}.\n")
+        print(f"There are no pending expenses for '{username}'.\n")
 
 def find_pending_expense_by_id(expense_id, pending_expenses, username, expenses):
     expense = {}
@@ -52,3 +56,4 @@ def JSON_Functions(username, full_expense_list, expense):
         json.dump(full_expense_list, file, indent=4)
 
     print(f"{expense_name} has been deleted.\n")
+    logging.warning(f"'{expense_name}' under account '{username}' has been deleted.")

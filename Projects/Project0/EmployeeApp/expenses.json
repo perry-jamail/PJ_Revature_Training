@@ -43,24 +43,6 @@
             "description": "test"
         }
     },
-    "perryjamail": {
-        "expense1": {
-            "id": "2",
-            "date": "2025-11-11",
-            "amount": "50.00",
-            "category": "Personal",
-            "status": "Denied",
-            "description": "Using company money for dinner."
-        },
-        "expense2": {
-            "id": "15",
-            "date": "2025-11-13",
-            "amount": "68",
-            "category": "Office",
-            "status": "Pending",
-            "description": "Office supplies."
-        }
-    },
     "kenzierose": {
         "expense2": {
             "id": "13",
@@ -95,6 +77,32 @@
             "description": "Gas"
         }
     },
+    "perryjamail": {
+        "expense1": {
+            "id": "2",
+            "date": "2025-11-11",
+            "amount": "50.00",
+            "category": "Personal",
+            "status": "Denied",
+            "description": "Using company money for dinner."
+        },
+        "expense2": {
+            "id": "15",
+            "date": "2025-11-13",
+            "amount": "68",
+            "category": "Office",
+            "status": "Pending",
+            "description": "Office supplies."
+        },
+        "expense3": {
+            "id": "20",
+            "date": "2025-11-18",
+            "amount": "600.00",
+            "category": "Travel",
+            "status": "Pending",
+            "description": "Business trip"
+        }
+    },
     "admin": {
         "expense1": {
             "id": "1",
@@ -111,6 +119,14 @@
             "category": "Tech",
             "status": "Denied",
             "description": ""
+        },
+        "expense4": {
+            "id": "21",
+            "date": "2025-11-18",
+            "amount": "30.50",
+            "category": "Work Supplies",
+            "status": "Pending",
+            "description": "Buying new computer keyboard."
         }
     }
 }

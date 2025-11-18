@@ -1,13 +1,21 @@
 # Script for handling the view expense history requirement.
-# TODO: Add logging features
-import json
+import json, logging
 import pandas as pd
 
+logging.basicConfig(filename="employeeApp.log",
+                    level=logging.INFO,
+                    filemode='a',
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
 def view_expenses_by_username(username):
+    pd.set_option('display.max_columns', None)
+
     with open('expenses.json', 'r') as file:
         expenses = json.load(file)
 
     if username in expenses:
-        print(f"\n{pd.DataFrame.from_dict(expenses[username])}\n")
+        df = pd.DataFrame.from_dict(expenses[username])
+        print(f"\n{df.head(20)}\n")
+        logging.info(f"'{username}' viewed all expenses associated with this account.")
     else:
         print("There are no expenses listed for the logged-in user.\n")

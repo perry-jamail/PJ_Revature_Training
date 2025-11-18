@@ -1,7 +1,11 @@
 # Script for handling the expense submission requirement.
-# TODO: Add logging features
-import json
+import json, logging
 from datetime import date
+
+logging.basicConfig(filename="employeeApp.log",
+                    level=logging.INFO,
+                    filemode='a',
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 
 def add_expense_by_username(username):
@@ -36,6 +40,9 @@ def add_to_existing_list(username, expenseList):
     userExpenses[newExpenseName] = newExpense
     expenseList[username] = userExpenses
 
+    print(f"'{newExpenseName}' was successfully added.\n")
+    logging.info(f"'{username}' added expense '{newExpenseName}'.")
+
     with open('expenses.json', 'w') as file:
         json.dump(expenseList, file, indent=4)
 
@@ -58,6 +65,9 @@ def create_new_list_entry(username, expenseList):
 
     userExpenses = {newExpenseName: newExpense}
     expenseList[username] = userExpenses
+
+    print(f"'{newExpenseName}' was successfully added.\n")
+    logging.info(f"'{username}' added expense '{newExpenseName}'.")
 
     with open('expenses.json', 'w') as file:
         json.dump(expenseList, file, indent=4)

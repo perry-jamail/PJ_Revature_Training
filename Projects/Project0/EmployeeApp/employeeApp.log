@@ -1,0 +1,31 @@
+2025-11-18 14:52:09,389 - root - INFO - 'test' logged in.
+2025-11-18 14:52:24,673 - root - INFO - 'test' viewed all expenses associated with this account.
+2025-11-18 14:54:05,487 - root - INFO - 'perryjamail' logged in.
+2025-11-18 14:55:07,112 - root - INFO - perryjamail added an expense.
+2025-11-18 14:55:17,164 - root - INFO - Application quit.
+2025-11-18 14:57:29,543 - root - INFO - 'perryjamail' logged in.
+2025-11-18 14:57:31,740 - root - INFO - 'perryjamail' viewed all expenses associated with this account.
+2025-11-18 14:58:12,935 - root - WARNING - Business Trip 11142025 - 11162025 under account perryjamail has been edited.
+2025-11-18 14:58:33,590 - root - WARNING - Business Trip 11142025 - 11162025 under account 'perryjamail' has been deleted.
+2025-11-18 14:58:43,943 - root - INFO - 'perryjamail' viewed all expenses associated with this account.
+2025-11-18 14:59:15,159 - root - INFO - 'perryjamail' added an expense.
+2025-11-18 14:59:23,776 - root - INFO - Application quit.
+2025-11-18 15:03:20,885 - root - INFO - 'admin' logged in.
+2025-11-18 15:03:24,982 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-18 15:04:29,186 - root - INFO - 'admin' added an expense.
+2025-11-18 15:04:32,413 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-18 15:04:53,978 - root - INFO - Application quit.
+2025-11-18 15:13:08,665 - root - INFO - 'admin' logged in.
+2025-11-18 15:13:10,714 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-18 15:13:18,943 - root - INFO - Application quit.
+2025-11-18 15:13:38,293 - root - INFO - 'admin' logged in.
+2025-11-18 15:13:39,306 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-18 15:13:50,998 - root - INFO - Application quit.
+2025-11-18 15:14:06,460 - root - INFO - 'admin' logged in.
+2025-11-18 15:14:08,130 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-18 15:14:20,777 - root - INFO - Application quit.
+2025-11-18 15:16:34,546 - root - INFO - 'admin' logged in.
+2025-11-18 15:16:36,241 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-18 15:17:12,340 - root - INFO - 'admin' logged in.
+2025-11-18 15:17:14,007 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-18 15:17:34,678 - root - INFO - Application quit.

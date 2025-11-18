@@ -1,14 +1,18 @@
 # CLI Application 'home' page.
 # Should serve as a "main" or "home" page for the app, options include view expense history,
 # submit new expenses, view status of submitted expenses (appending, approved, denied), edit expenses, and delete expenses.
-# TODO: Add logging features
 import Log_On as lg
 import Expense_History as his
 import Expense_Submission as sub
 import Approved_Denied_Expenses as ade
 import Edit_Expenses as ee
 import Delete_Expenses as de
-import sys
+import sys, logging
+
+logging.basicConfig(filename="employeeApp.log",
+                    level=logging.INFO,
+                    filemode='a',
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 logged_in = False
 username = ''
@@ -49,6 +53,7 @@ def application():
             de.delete_pending_expense_by_username(username)
         elif op == 'q':
             print("Quitting application...")
+            logging.info("Application quit.")
             sys.exit()
         else:
             print("Please enter a valid input.\n")
