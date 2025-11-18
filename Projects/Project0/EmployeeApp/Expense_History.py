@@ -1,4 +1,5 @@
 # Script for handling the view expense history requirement.
+# TODO: Add logging features
 import json
 import pandas as pd
 

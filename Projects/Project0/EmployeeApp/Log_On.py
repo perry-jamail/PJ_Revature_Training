@@ -1,5 +1,6 @@
 # Script for handling the employee sign-in and authentication processes
 # TODO: (Optional) Create logoff functionality
+# TODO: Add logging features
 import json
 import sys
 

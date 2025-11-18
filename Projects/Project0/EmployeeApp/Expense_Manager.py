@@ -1,6 +1,7 @@
 # CLI Application 'home' page.
 # Should serve as a "main" or "home" page for the app, options include view expense history,
 # submit new expenses, view status of submitted expenses (appending, approved, denied), edit expenses, and delete expenses.
+# TODO: Add logging features
 import Log_On as lg
 import Expense_History as his
 import Expense_Submission as sub

@@ -1,4 +1,5 @@
 # Script for handling the expense submission requirement.
+# TODO: Add logging features
 import json
 from datetime import date
 

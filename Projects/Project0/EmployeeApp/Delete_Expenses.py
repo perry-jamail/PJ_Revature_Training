@@ -1,4 +1,5 @@
 # Script for handling the delete expenses requirement
+# TODO: Add logging features
 import json
 
 def delete_pending_expense_by_username(username):
