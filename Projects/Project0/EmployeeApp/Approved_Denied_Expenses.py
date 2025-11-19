@@ -9,6 +9,8 @@ logging.basicConfig(filename="employeeApp.log",
 
 
 def view_approved_denied_by_username(username):
+    pd.set_option('display.max_columns', None)
+
     with open('expenses.json', 'r') as file:
         expenses = json.load(file)
 
@@ -29,4 +31,4 @@ def view_approved_denied_by_username(username):
     else:
         print("There are no expenses listed for the logged-in user.\n")
 
-    logging.info(f"Approved and denied expenses for {username} viewed.")
+    logging.info(f"'{username}' viewed their approved and denied expenses.")

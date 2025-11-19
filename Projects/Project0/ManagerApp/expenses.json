@@ -43,6 +43,40 @@
             "description": "test"
         }
     },
+    "kenzierose": {
+        "expense2": {
+            "id": "13",
+            "date": "2025-11-12",
+            "amount": "10",
+            "category": "Food",
+            "status": "Pending",
+            "description": "Coffee"
+        },
+        "expense3": {
+            "id": "14",
+            "date": "2025-11-12",
+            "amount": "50",
+            "category": "Food",
+            "status": "Pending",
+            "description": "Company dinner"
+        },
+        "expense4": {
+            "id": "16",
+            "date": "2025-11-13",
+            "amount": "100",
+            "category": "Entertainment",
+            "status": "Pending",
+            "description": "Christmas presents"
+        },
+        "expense1": {
+            "id": "6",
+            "date": "2025-11-12",
+            "amount": "40",
+            "category": "Necessities",
+            "status": "Pending",
+            "description": "Gas"
+        }
+    },
     "perryjamail": {
         "expense1": {
             "id": "2",
@@ -93,48 +127,6 @@
             "category": "Work Supplies",
             "status": "Pending",
             "description": "Buying new computer keyboard."
-        }
-    },
-    "kenzierose": {
-        "expense2": {
-            "id": "13",
-            "date": "2025-11-12",
-            "amount": "10",
-            "category": "Food",
-            "status": "Pending",
-            "description": "Coffee"
-        },
-        "expense3": {
-            "id": "14",
-            "date": "2025-11-12",
-            "amount": "50",
-            "category": "Food",
-            "status": "Pending",
-            "description": "Company dinner"
-        },
-        "expense4": {
-            "id": "16",
-            "date": "2025-11-13",
-            "amount": "100",
-            "category": "Entertainment",
-            "status": "Pending",
-            "description": "Christmas presents"
-        },
-        "expense1": {
-            "id": "6",
-            "date": "2025-11-12",
-            "amount": "40",
-            "category": "Necessities",
-            "status": "Pending",
-            "description": "Gas"
-        },
-        "expense5": {
-            "id": "22",
-            "date": "2025-11-18",
-            "amount": "400",
-            "category": "Necessities",
-            "status": "Pending",
-            "description": "Moving"
         }
     }
 }
