@@ -31,16 +31,25 @@ def add_to_existing_list(username, expenseList):
         "amount": input("Amount: "),
         "category": input("Category: "),
         "status": "Pending",
-        "description": input("Description (optional): ")
+        "description": input("Description: ")
     }
-    print()
+
+    # validations
+    while float(newExpense["amount"]) < 0:
+        logging.error(f"'{username}' has entered a negative amount when creating a new expense.")
+        newExpense["amount"] = input("Amount cannot be less than 0. Please enter a valid amount: ")
+
+    while len(newExpense["description"]) < 10:
+        logging.error(f"'{username}' has entered too short of a description when creating a new expense.")
+        newExpense["description"] = input("Description must be longer than 10 characters. Please enter a valid description: ")
+
     with open('NextID.txt', 'w') as file:
         file.write(str(nextId + 1))
 
     userExpenses[newExpenseName] = newExpense
     expenseList[username] = userExpenses
 
-    print(f"'{newExpenseName}' was successfully added.\n")
+    print(f"\n'{newExpenseName}' was successfully added.\n")
     logging.info(f"'{username}' added expense '{newExpenseName}'.")
 
     with open('expenses.json', 'w') as file:
@@ -57,16 +66,26 @@ def create_new_list_entry(username, expenseList):
         "amount": input("Amount: "),
         "category": input("Category: "),
         "status": "Pending",
-        "description": input("Description (optional): ")
+        "description": input("Description: ")
     }
-    print()
+
+    # validations
+    while float(newExpense["amount"]) < 0:
+        logging.error(f"'{username}' has entered a negative amount when creating a new expense.")
+        newExpense["amount"] = input("Amount cannot be less than 0. Please enter a valid amount: ")
+
+    while len(newExpense["description"]) < 10:
+        logging.error(f"'{username}' has entered too short of a description when creating a new expense.")
+        newExpense["description"] = input(
+            "Description must be longer than 10 characters. Please enter a valid description: ")
+
     with open('NextID.txt', 'w') as file:
         file.write(str(nextId + 1))
 
     userExpenses = {newExpenseName: newExpense}
     expenseList[username] = userExpenses
 
-    print(f"'{newExpenseName}' was successfully added.\n")
+    print(f"\n'{newExpenseName}' was successfully added.\n")
     logging.info(f"'{username}' added expense '{newExpenseName}'.")
 
     with open('expenses.json', 'w') as file:

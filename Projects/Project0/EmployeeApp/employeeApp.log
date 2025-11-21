@@ -39,3 +39,38 @@
 2025-11-18 20:14:48,302 - root - INFO - 'admin' viewed their approved and denied expenses.
 2025-11-18 20:14:58,777 - root - INFO - 'admin' viewed all expenses associated with this account.
 2025-11-18 20:15:13,819 - root - INFO - Application quit.
+2025-11-19 15:49:22,761 - root - INFO - 'admin' logged in.
+2025-11-19 15:49:46,467 - root - ERROR - 'admin' has entered a negative amount when creating a new expense.
+2025-11-19 15:49:51,209 - root - ERROR - 'admin' has entered too short of a description when creating a new expense.
+2025-11-19 15:50:05,098 - root - INFO - 'admin' added expense 'newExpense'.
+2025-11-19 15:50:07,773 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-19 15:50:31,221 - root - WARNING - 'newExpense' under account 'admin' has been deleted.
+2025-11-19 15:50:36,934 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-19 15:50:41,768 - root - INFO - Application quit.
+2025-11-19 15:54:01,449 - root - INFO - 'admin' logged in.
+2025-11-19 15:54:04,768 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-19 15:54:30,185 - root - INFO - Application quit.
+2025-11-19 15:54:48,708 - root - INFO - 'admin' logged in.
+2025-11-19 16:00:12,201 - root - INFO - 'admin' logged in.
+2025-11-19 16:00:14,265 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-19 16:00:45,783 - root - INFO - 'admin' viewed their approved and denied expenses.
+2025-11-19 16:00:57,693 - root - INFO - Application quit.
+2025-11-19 16:02:21,154 - root - INFO - 'admin' logged in.
+2025-11-19 16:02:22,255 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-19 16:04:07,944 - root - INFO - 'admin' logged in.
+2025-11-19 16:04:09,870 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-19 16:04:32,730 - root - INFO - 'admin' added expense 'expense5'.
+2025-11-19 16:04:36,443 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-19 16:05:24,763 - root - INFO - 'admin' added expense 'expense6'.
+2025-11-19 16:05:29,964 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-19 16:05:44,800 - root - INFO - Application quit.
+2025-11-19 16:07:42,606 - root - INFO - 'admin' logged in.
+2025-11-19 16:07:46,893 - root - INFO - 'admin' viewed their approved and denied expenses.
+2025-11-19 16:07:50,284 - root - INFO - Application quit.
+2025-11-19 16:12:34,871 - root - INFO - 'admin' logged in.
+2025-11-19 16:12:43,799 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-19 16:12:50,273 - root - INFO - 'admin' viewed their approved and denied expenses.
+2025-11-19 16:13:35,238 - root - INFO - Application quit.
+2025-11-20 19:42:50,802 - root - INFO - 'kenzierose' logged in.
+2025-11-20 19:43:08,617 - root - INFO - 'kenzierose' viewed all expenses associated with this account.
+2025-11-20 19:44:47,718 - root - INFO - Application quit.

@@ -1,6 +1,7 @@
 # Script for handling the viewing of expense statuses requirement.
 import json, logging
 import pandas as pd
+from tabulate import tabulate
 
 logging.basicConfig(filename="employeeApp.log",
                     level=logging.INFO,
@@ -25,7 +26,8 @@ def view_approved_denied_by_username(username):
                         returnDict[outer_key] = inner_dict
 
         if returnDict:
-            print(f"\n{pd.DataFrame.from_dict(returnDict)}\n")
+            df = pd.DataFrame.from_dict(returnDict)
+            print(f"\n{tabulate(df, headers='keys', tablefmt='psql')}\n")
         else:
             print(f"\nUser '{username}' has no Approved or Denied expenses.\n")
     else:

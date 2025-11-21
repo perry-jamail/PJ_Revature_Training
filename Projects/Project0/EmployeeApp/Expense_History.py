@@ -1,6 +1,7 @@
 # Script for handling the view expense history requirement.
 import json, logging
 import pandas as pd
+from tabulate import tabulate
 
 logging.basicConfig(filename="employeeApp.log",
                     level=logging.INFO,
@@ -15,7 +16,7 @@ def view_expenses_by_username(username):
 
     if username in expenses:
         df = pd.DataFrame.from_dict(expenses[username])
-        print(f"\n{df.head(20)}\n")
+        print(f"\n{tabulate(df, headers="keys", tablefmt="psql")}\n")
         logging.info(f"'{username}' viewed all expenses associated with this account.")
     else:
         print("There are no expenses listed for the logged-in user.\n")
