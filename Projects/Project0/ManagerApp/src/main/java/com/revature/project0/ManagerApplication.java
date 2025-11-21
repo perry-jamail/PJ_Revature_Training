@@ -1,16 +1,17 @@
 // Class to handle the "home page" functions of the manager application.
-// TODO: Get logging functionality working
 
 package com.revature.project0;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.swing.text.View;
 import java.io.IOException;
 import java.util.Scanner;
 
 public class ManagerApplication {
     static LogIn lg = new LogIn();
+    static ViewPending vp = new ViewPending();
 
     static String username = "";
     static Scanner scan = new Scanner(System.in);
@@ -39,7 +40,7 @@ public class ManagerApplication {
         }
     }
 
-    static void application() {
+    static void application() throws IOException {
         String op = "";
         while (!op.equals("q")) {
             System.out.print("Please enter a function to perform:\n\t1) View List of Pending Expenses\n\t" +
@@ -49,7 +50,8 @@ public class ManagerApplication {
 
             switch (op) {
                 case "1":
-                    // TODO: Create functionality to View List of Pending Expenses
+                    vp.viewAllPendingExpenses();
+                    logger.info("'{}' has viewed all pending expenses.", username);
                     break;
                 case "2":
                     // TODO: Create functionality to Approve or Deny Pending Expenses with Comments

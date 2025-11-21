@@ -1,5 +1,4 @@
 // Class for handling log-in functionality for the manager app.
-// TODO: Get logging functionality working
 
 package com.revature.project0;
 
@@ -66,7 +65,7 @@ public class LogIn {
             String password = scan.next();
             credentials.put(username, password);
             saveCred(credentials);
-            System.out.println("Account with the username '" + username + "' was successfully created.\n");
+            System.out.println("Account with the username '" + username + "' was successfully created.");
             logger.info("Account created with username '{}'.", username);
         } else if (username.equals("q")) {
             System.out.println("Quitting application...");

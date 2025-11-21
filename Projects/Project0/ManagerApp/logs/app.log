@@ -1,0 +1,24 @@
+2025-11-21 12:42:21,578 INFO [main] c.r.p.LogIn [LogIn.java:38] - 'admin' logged in.
+2025-11-21 12:42:23,495 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:62] - Application quit.
+2025-11-21 12:43:01,705 INFO [main] c.r.p.LogIn [LogIn.java:70] - Account created with username 'perryjamail'.
+2025-11-21 12:43:11,973 INFO [main] c.r.p.LogIn [LogIn.java:38] - 'perryjamail' logged in.
+2025-11-21 12:43:14,879 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:62] - Application quit.
+2025-11-21 14:21:09,232 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 14:21:27,127 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:64] - Application quit.
+2025-11-21 14:22:04,433 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 14:22:36,450 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:64] - Application quit.
+2025-11-21 14:45:50,338 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 14:46:39,812 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 14:48:45,396 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:64] - Application quit.
+2025-11-21 14:49:45,669 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 14:50:29,742 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:64] - Application quit.
+2025-11-21 14:51:13,513 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 14:51:40,058 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:64] - Application quit.
+2025-11-21 14:53:05,718 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 14:53:17,795 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:64] - Application quit.
+2025-11-21 14:59:16,778 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 14:59:19,377 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:54] - admin has viewed all pending expenses.
+2025-11-21 14:59:33,556 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:64] - Application quit.
+2025-11-21 15:01:09,864 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 15:01:14,204 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:54] - 'admin' has viewed all pending expenses.
+2025-11-21 15:01:54,310 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:64] - Application quit.
