@@ -1,3 +1,6 @@
 2025-11-19 13:22:00,249 INFO [main] c.r.L.LogDemo [LogDemo.java:11] - This is info
 2025-11-19 13:22:00,256 WARN [main] c.r.L.LogDemo [LogDemo.java:13] - This is warn
 2025-11-19 13:22:00,256 ERROR [main] c.r.L.LogDemo [LogDemo.java:15] - This is error
+2025-11-20 20:45:03,732 INFO [main] c.r.L.LogDemo [LogDemo.java:12] - This is info
+2025-11-20 20:45:03,738 WARN [main] c.r.L.LogDemo [LogDemo.java:14] - This is warn
+2025-11-20 20:45:03,739 ERROR [main] c.r.L.LogDemo [LogDemo.java:16] - This is error

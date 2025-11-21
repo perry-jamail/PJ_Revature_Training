@@ -21,14 +21,14 @@ public class JSONTestWriter {
         System.out.println(jsonNode);
         JsonNode adminExpensesNode = jsonNode.get("admin");
         System.out.println(adminExpensesNode);
-        JsonNode expense3Node = adminExpensesNode.get("expense3");
+        JsonNode expense3Node = adminExpensesNode.get("expense7");
         System.out.println(expense3Node);
-        ((ObjectNode) expense3Node).put("description", "This a new description written for the pull from a new path.");
+        ((ObjectNode) expense3Node).put("description", "This a new description for testing purposes.");
         System.out.println(expense3Node);
 
-        ((ObjectNode) adminExpensesNode).set("expense3", expense3Node);
+        ((ObjectNode) adminExpensesNode).set("expense7", expense3Node);
         ((ObjectNode) jsonNode).set("admin", adminExpensesNode);
         System.out.println(jsonNode);
-        mapper.writeValue(new File("mydata.json"), (ObjectNode) jsonNode);
+        mapper.writeValue(new File("C:\\Users\\perry\\Revature\\Projects\\Project0\\EmployeeApp\\expenses.json"), (ObjectNode) jsonNode);
     }
 }

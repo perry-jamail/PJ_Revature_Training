@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc87a621-226e-4344-a7e0-e25cde800518" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../Projects/Project0/EmployeeApp/expenses2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Projects/Project0/EmployeeApp/NextID.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Projects/Project0/EmployeeApp/NextID.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Projects/Project0/EmployeeApp/employeeApp.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Projects/Project0/EmployeeApp/employeeApp.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Projects/Project0/EmployeeApp/expenses.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Projects/Project0/EmployeeApp/expenses.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Projects/Project0/ManagerApp/mydata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Projects/Project0/ManagerApp/mydata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Projects/Project0/ManagerApp/src/main/java/com/revature/project0/ManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Projects/Project0/ManagerApp/src/main/java/com/revature/project0/ManagerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Projects/Project0/ManagerApp/src/main/java/com/revature/testing/JSONTestWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Projects/Project0/ManagerApp/src/main/java/com/revature/testing/JSONTestWriter.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="35ljUDGRrmJUY283sBdaISwCHsa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/perry/Revature/IdeaProjects/RevatureTraining/Week3/11192025/src"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc87a621-226e-4344-a7e0-e25cde800518" name="Changes" comment="" />
+      <created>1763691565976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763691565976</updated>
+    </task>
+    <servers />
+  </component>
+</project>

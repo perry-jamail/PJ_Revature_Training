@@ -74,3 +74,8 @@
 2025-11-20 19:42:50,802 - root - INFO - 'kenzierose' logged in.
 2025-11-20 19:43:08,617 - root - INFO - 'kenzierose' viewed all expenses associated with this account.
 2025-11-20 19:44:47,718 - root - INFO - Application quit.
+2025-11-20 20:09:42,656 - root - INFO - 'admin' logged in.
+2025-11-20 20:09:44,907 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-20 20:10:50,413 - root - INFO - 'admin' added expense 'expense7'.
+2025-11-20 20:10:54,573 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-20 20:11:21,444 - root - INFO - Application quit.

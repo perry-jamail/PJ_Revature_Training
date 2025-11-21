@@ -5,8 +5,9 @@ import org.slf4j.LoggerFactory;
 
 
 public class LogDemo {
+    static Logger logger = LoggerFactory.getLogger(LogDemo.class);
     static void main(String[] args) {
-        Logger logger = LoggerFactory.getLogger(LogDemo.class);
+
 
         logger.info("This is info");
 

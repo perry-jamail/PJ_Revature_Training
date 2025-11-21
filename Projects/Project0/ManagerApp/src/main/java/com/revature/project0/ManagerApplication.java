@@ -1,6 +1,10 @@
 // Class to handle the "home page" functions of the manager application.
+// TODO: Get logging functionality working
 
 package com.revature.project0;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -10,6 +14,7 @@ public class ManagerApplication {
 
     static String username = "";
     static Scanner scan = new Scanner(System.in);
+    static Logger logger = LoggerFactory.getLogger(ManagerApplication.class);
 
     public static void main(String[] args) throws IOException {
         // Where the application will begin running from
@@ -23,11 +28,11 @@ public class ManagerApplication {
 
         if (login_or_create.equals("1")) {
             username = lg.login();
-            // application();
+            application();
         } else if (login_or_create.equals("2")) {
             lg.addCred();
             username = lg.login();
-            // application();
+            application();
         } else {
             System.out.println("Please enter either 1 or 2\n");
             welcome();
@@ -54,6 +59,7 @@ public class ManagerApplication {
                     break;
                 case "q":
                     System.out.println("Quitting application...");
+                    logger.info("Application quit.");
                     System.exit(0);
                     break;
                 default:

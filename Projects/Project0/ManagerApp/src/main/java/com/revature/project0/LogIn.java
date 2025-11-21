@@ -1,10 +1,13 @@
 // Class for handling log-in functionality for the manager app.
+// TODO: Get logging functionality working
 
 package com.revature.project0;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,6 +17,8 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class LogIn {
+    Logger logger = LoggerFactory.getLogger(LogIn.class);
+
     public String login() throws IOException {
         ObjectNode credentialsList = openJSON();
         String username = "";
@@ -29,10 +34,12 @@ public class LogIn {
                 String password = scan.next();
                 String storedPassword = credentialsList.findValuesAsText(username).getFirst();
                 if (storedPassword.equals(password)) {
-                    System.out.println("Authentication successful. Logged in as '" + username + "'.");
+                    System.out.println("Authentication successful. Logged in as '" + username + "'.\n");
+                    logger.info("'{}' logged in.", username);
                     return username;
                 } else {
                     System.out.println("Username exists, but the password is incorrect.\n");
+                    logger.warn("Unsuccessful login attempt for account '{}'.", username);
                 }
             } else if (!Objects.equals(username, "q")) {
                 System.out.println("Username not found.\n");
@@ -40,6 +47,7 @@ public class LogIn {
         }
         if (username.equals("q")) {
             System.out.println("Quitting application...");
+            logger.info("Application quit.");
             System.exit(0);
         }
         return "";
@@ -59,11 +67,14 @@ public class LogIn {
             credentials.put(username, password);
             saveCred(credentials);
             System.out.println("Account with the username '" + username + "' was successfully created.\n");
+            logger.info("Account created with username '{}'.", username);
         } else if (username.equals("q")) {
             System.out.println("Quitting application...");
+            logger.info("Application quit.");
             System.exit(0);
         } else {
             System.out.println("Username already exists.\n");
+            logger.warn("Duplicate account creation attempted for '{}'.", username);
         }
     }
 
