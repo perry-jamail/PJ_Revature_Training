@@ -22,3 +22,60 @@
 2025-11-21 15:01:09,864 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
 2025-11-21 15:01:14,204 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:54] - 'admin' has viewed all pending expenses.
 2025-11-21 15:01:54,310 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:64] - Application quit.
+2025-11-21 18:10:31,995 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 18:10:36,257 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 18:17:33,912 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 18:17:35,823 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 18:18:14,590 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:66] - Application quit.
+2025-11-21 18:22:00,920 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 18:22:05,516 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 18:24:08,588 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 18:24:22,497 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:66] - Application quit.
+2025-11-21 18:27:31,849 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 18:27:35,073 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 18:30:39,439 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 18:30:59,106 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 18:33:13,458 WARN [main] c.r.p.LogIn [LogIn.java:41] - Unsuccessful login attempt for account 'admin'.
+2025-11-21 18:33:18,129 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 18:33:19,721 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 18:33:56,098 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:66] - Application quit.
+2025-11-21 18:40:37,401 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 18:40:39,462 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 18:41:25,609 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:66] - Application quit.
+2025-11-21 18:42:00,646 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 18:42:01,976 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 18:42:40,507 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:66] - Application quit.
+2025-11-21 18:43:40,398 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 18:43:43,057 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 18:45:31,954 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 18:45:33,983 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 18:46:48,340 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 18:46:55,938 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:66] - Application quit.
+2025-11-21 18:51:37,213 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 18:51:38,006 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 18:52:31,895 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 18:53:07,638 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:66] - Application quit.
+2025-11-21 18:54:22,756 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 18:54:25,291 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 20:21:27,007 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 20:21:29,716 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 20:21:56,427 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:66] - Application quit.
+2025-11-21 20:22:06,494 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 20:22:08,389 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 20:24:28,866 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-21 20:24:32,152 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 20:25:48,438 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'admin' has viewed all pending expenses.
+2025-11-21 20:25:55,322 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:66] - Application quit.
+2025-11-21 20:39:39,278 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'kenzierose' logged in.
+2025-11-21 20:39:47,380 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'kenzierose' has viewed all pending expenses.
+2025-11-21 20:41:17,934 INFO [main] c.r.p.ApproveDenyPending [ApproveDenyPending.java:97] - 'kenzierose' has denied 'test2' submitted by 'test'.
+2025-11-21 20:41:26,649 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'kenzierose' has viewed all pending expenses.
+2025-11-21 20:41:47,023 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:65] - Application quit.
+2025-11-21 20:44:01,423 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'kenzierose' logged in.
+2025-11-21 20:44:11,282 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'kenzierose' has viewed all pending expenses.
+2025-11-21 20:44:39,829 INFO [main] c.r.p.ApproveDenyPending [ApproveDenyPending.java:94] - 'kenzierose' has approved 'expense30' submitted by 'test'.
+2025-11-21 20:44:42,988 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:65] - Application quit.
+2025-11-21 20:48:27,015 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'perryjamail' logged in.
+2025-11-21 20:48:34,979 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'perryjamail' has viewed all pending expenses.
+2025-11-21 20:49:19,037 INFO [main] c.r.p.ApproveDenyPending [ApproveDenyPending.java:97] - 'perryjamail' has denied 'expense5' submitted by 'kenzierose'.
+2025-11-21 20:49:32,573 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:65] - Application quit.

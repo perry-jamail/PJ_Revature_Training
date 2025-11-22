@@ -79,3 +79,22 @@
 2025-11-20 20:10:50,413 - root - INFO - 'admin' added expense 'expense7'.
 2025-11-20 20:10:54,573 - root - INFO - 'admin' viewed all expenses associated with this account.
 2025-11-20 20:11:21,444 - root - INFO - Application quit.
+2025-11-21 18:19:45,374 - root - INFO - 'admin' logged in.
+2025-11-21 18:19:49,951 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-21 18:20:09,823 - root - INFO - Application quit.
+2025-11-21 18:24:41,142 - root - INFO - 'admin' logged in.
+2025-11-21 18:24:44,048 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-21 18:24:52,688 - root - INFO - 'admin' viewed their approved and denied expenses.
+2025-11-21 18:24:58,142 - root - INFO - Application quit.
+2025-11-21 20:42:10,453 - root - INFO - 'test' logged in.
+2025-11-21 20:42:17,920 - root - INFO - 'test' viewed their approved and denied expenses.
+2025-11-21 20:43:15,608 - root - INFO - 'test' added expense 'expense30'.
+2025-11-21 20:43:25,687 - root - INFO - Application quit.
+2025-11-21 20:44:54,320 - root - INFO - 'test' logged in.
+2025-11-21 20:44:57,443 - root - INFO - 'test' viewed their approved and denied expenses.
+2025-11-21 20:45:24,676 - root - INFO - 'test' viewed all expenses associated with this account.
+2025-11-21 20:46:04,042 - root - INFO - Application quit.
+2025-11-21 20:49:54,464 - root - INFO - 'kenzierose' logged in.
+2025-11-21 20:50:01,253 - root - INFO - 'kenzierose' viewed their approved and denied expenses.
+2025-11-21 20:50:41,591 - root - INFO - 'kenzierose' viewed all expenses associated with this account.
+2025-11-21 20:50:55,948 - root - INFO - Application quit.

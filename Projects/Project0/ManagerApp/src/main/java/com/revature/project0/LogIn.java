@@ -37,11 +37,11 @@ public class LogIn {
                     logger.info("'{}' logged in.", username);
                     return username;
                 } else {
-                    System.out.println("Username exists, but the password is incorrect.\n");
+                    System.out.println("Username exists, but the password is incorrect.");
                     logger.warn("Unsuccessful login attempt for account '{}'.", username);
                 }
             } else if (!Objects.equals(username, "q")) {
-                System.out.println("Username not found.\n");
+                System.out.println("Username not found.");
             }
         }
         if (username.equals("q")) {

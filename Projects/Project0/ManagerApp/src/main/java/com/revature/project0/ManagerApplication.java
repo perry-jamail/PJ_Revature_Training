@@ -12,6 +12,7 @@ import java.util.Scanner;
 public class ManagerApplication {
     static LogIn lg = new LogIn();
     static ViewPending vp = new ViewPending();
+    static ApproveDenyPending adp = new ApproveDenyPending();
 
     static String username = "";
     static Scanner scan = new Scanner(System.in);
@@ -24,7 +25,7 @@ public class ManagerApplication {
 
     static void welcome() throws IOException {
         System.out.print("Welcome to the Manager Appplication for the Expense Manager! Please " +
-                "enter (1) to login or (2) to create an account! >");
+                "enter (1) to login or (2) to create an account! > ");
         String login_or_create = scan.next();
 
         if (login_or_create.equals("1")) {
@@ -54,7 +55,7 @@ public class ManagerApplication {
                     logger.info("'{}' has viewed all pending expenses.", username);
                     break;
                 case "2":
-                    // TODO: Create functionality to Approve or Deny Pending Expenses with Comments
+                    adp.approveDenyPending(username);
                     break;
                 case "3":
                     // TODO: Create functionality to Generate Report of Approved Expenses

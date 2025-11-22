@@ -19,7 +19,7 @@ username = ''
 def welcome():
     global logged_in, username
     login_or_create = input("Welcome to the Employee Expense Manager Application! Please enter (1) to login"
-                            " or (2) to create an account! >")
+                            " or (2) to create an account! > ")
     if login_or_create == "1":
         logged_in, username = lg.login()
         if logged_in:
