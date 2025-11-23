@@ -43,16 +43,6 @@ public class ApproveDenyPending {
             });
         });
 
-//        fullExpenseList.forEachEntry((key, value) -> {
-//            value.forEachEntry((uKey, uValue) -> {
-//                uValue.forEachEntry((eKey, eValue) -> {
-//                    if (eValue.asText().equals("Pending")) {
-//                        pendingExpenses.put(uKey, uValue);
-//                    }
-//                });
-//            });
-//        });
-
         HashMap<String, JsonNode> expenseMatch = new HashMap<String, JsonNode>();
         for (Map.Entry<String, JsonNode> mapElement : pendingExpenses.entrySet()) {
             String key = mapElement.getKey();

@@ -13,6 +13,7 @@ public class ManagerApplication {
     static LogIn lg = new LogIn();
     static ViewPending vp = new ViewPending();
     static ApproveDenyPending adp = new ApproveDenyPending();
+    static GenerateReport gr = new GenerateReport();
 
     static String username = "";
     static Scanner scan = new Scanner(System.in);
@@ -58,7 +59,7 @@ public class ManagerApplication {
                     adp.approveDenyPending(username);
                     break;
                 case "3":
-                    // TODO: Create functionality to Generate Report of Approved Expenses
+                    gr.reportOptions(username);
                     break;
                 case "q":
                     System.out.println("Quitting application...");

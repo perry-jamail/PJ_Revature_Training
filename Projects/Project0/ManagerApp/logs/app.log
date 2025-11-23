@@ -79,3 +79,24 @@
 2025-11-21 20:48:34,979 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:55] - 'perryjamail' has viewed all pending expenses.
 2025-11-21 20:49:19,037 INFO [main] c.r.p.ApproveDenyPending [ApproveDenyPending.java:97] - 'perryjamail' has denied 'expense5' submitted by 'kenzierose'.
 2025-11-21 20:49:32,573 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:65] - Application quit.
+2025-11-22 22:12:53,809 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-22 22:13:29,490 INFO [main] c.r.p.GenerateReport [GenerateReport.java:63] - 'admin' generated an approved expenses report by employee username 'kenzierose'.
+2025-11-22 22:13:49,588 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:67] - Application quit.
+2025-11-22 22:17:04,732 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-22 22:17:21,052 INFO [main] c.r.p.GenerateReport [GenerateReport.java:64] - 'admin' generated an approved expenses report by employee username 'perryjamail'.
+2025-11-22 22:17:35,373 INFO [main] c.r.p.GenerateReport [GenerateReport.java:64] - 'admin' generated an approved expenses report by employee username 'admin'.
+2025-11-22 22:18:09,244 INFO [main] c.r.p.GenerateReport [GenerateReport.java:85] - 'admin' generated an approved expenses report by category 'Personal'.
+2025-11-22 22:20:11,584 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:67] - Application quit.
+2025-11-22 22:22:25,317 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-22 22:23:16,959 INFO [main] c.r.p.GenerateReport [GenerateReport.java:64] - 'admin' generated an approved expenses report by employee username 'test'.
+2025-11-22 22:24:02,471 INFO [main] c.r.p.GenerateReport [GenerateReport.java:106] - 'admin' generated an approved expenses report by expense date '2025-11-13'.
+2025-11-22 22:24:55,631 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:67] - Application quit.
+2025-11-22 22:37:35,105 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-22 22:38:03,977 INFO [main] c.r.p.GenerateReport [GenerateReport.java:153] - 'admin' generated an approved expenses report by expense date '2025-11-13'.
+2025-11-22 22:38:35,425 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:67] - Application quit.
+2025-11-22 22:44:16,068 INFO [main] c.r.p.LogIn [LogIn.java:37] - 'admin' logged in.
+2025-11-22 22:44:21,551 INFO [main] c.r.p.GenerateReport [GenerateReport.java:65] - 'admin' generated an approved expenses report of all approved expenses.
+2025-11-22 22:44:55,443 INFO [main] c.r.p.GenerateReport [GenerateReport.java:173] - 'admin' generated an approved expenses report by expense date '2025-11-21'.
+2025-11-22 22:45:26,455 INFO [main] c.r.p.GenerateReport [GenerateReport.java:86] - 'admin' generated an approved expenses report by employee username 'kenzierose'.
+2025-11-22 22:46:04,921 INFO [main] c.r.p.GenerateReport [GenerateReport.java:107] - 'admin' generated an approved expenses report by category 'Entertainment'.
+2025-11-22 22:46:11,190 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:67] - Application quit.

@@ -20,7 +20,7 @@ public class ViewPending {
             value.forEachEntry((uKey, uValue) -> {
                 uValue.forEachEntry((eKey, eValue) -> {
                     if (eValue.asText().equals("Pending")) {
-                        System.out.println("Expense Name: " + uKey + "\nExpense Data: " + uValue +
+                        System.out.println("Expense Name: '" + uKey + "'\nExpense Data: " + uValue +
                                 "\nSubmitted by employee user: '" + key + "'\n");
                     }
                 });
