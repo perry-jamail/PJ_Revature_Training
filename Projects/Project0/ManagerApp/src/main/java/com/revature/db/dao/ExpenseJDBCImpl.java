@@ -27,7 +27,7 @@ public class ExpenseJDBCImpl implements ExpenseDAO {
                         resultSet.getInt(2),
                         resultSet.getString(3),
                         resultSet.getString(4),
-                        resultSet.getDate(5),
+                        resultSet.getString(5),
                         resultSet.getFloat(6),
                         resultSet.getString(7),
                         resultSet.getString(8),
@@ -44,7 +44,7 @@ public class ExpenseJDBCImpl implements ExpenseDAO {
     public List<Expense> getAllExpenses() {
         connection = ConnectionUtil.dbConnection();
         String getAllExpenses = "select * from expenses";
-        List<Expense> expenseList = new ArrayList<Expense>();
+        List<Expense> expenseList = new ArrayList<>();
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(getAllExpenses);
             ResultSet resultSet = preparedStatement.executeQuery();
@@ -54,7 +54,7 @@ public class ExpenseJDBCImpl implements ExpenseDAO {
                         resultSet.getInt(2),
                         resultSet.getString(3),
                         resultSet.getString(4),
-                        resultSet.getDate(5),
+                        resultSet.getString(5),
                         resultSet.getFloat(6),
                         resultSet.getString(7),
                         resultSet.getString(8),
@@ -72,7 +72,7 @@ public class ExpenseJDBCImpl implements ExpenseDAO {
     public List<Expense> getAllPending() {
         connection = ConnectionUtil.dbConnection();
         List<Expense> fullList = getAllExpenses();
-        List<Expense> pendingList = new ArrayList<Expense>();
+        List<Expense> pendingList = new ArrayList<>();
 
         for (Expense e : fullList) {
             if (e.getStatus().equalsIgnoreCase("Pending")) {
@@ -85,7 +85,7 @@ public class ExpenseJDBCImpl implements ExpenseDAO {
     public List<Expense> getAllApproved() {
         connection = ConnectionUtil.dbConnection();
         List<Expense> fullList = getAllExpenses();
-        List<Expense> approvedList = new ArrayList<Expense>();
+        List<Expense> approvedList = new ArrayList<>();
 
         for (Expense e : fullList) {
             if (e.getStatus().equalsIgnoreCase("Approved")) {
@@ -125,6 +125,10 @@ public class ExpenseJDBCImpl implements ExpenseDAO {
                         String updateC = "update expenses set category = ? where expense_id = ?";
                         yield connection.prepareStatement(updateC);
                     }
+                    case "status" -> {
+                        String updateS = "update expenses set status = ? where expense_id = ?";
+                        yield connection.prepareStatement(updateS);
+                    }
                     case "description" -> {
                         String updateD = "update expenses set description = ? where expense_id = ?";
                         yield connection.prepareStatement(updateD);
@@ -140,7 +144,7 @@ public class ExpenseJDBCImpl implements ExpenseDAO {
                 preparedStatement.setString(1, value);
                 preparedStatement.setInt(2, id);
                 int rowsAffected = preparedStatement.executeUpdate();
-                System.out.println(rowsAffected + " row(s) updated.");
+//                System.out.println(rowsAffected + " row(s) updated.");
             }
         } catch (SQLException e) {
             throw new RuntimeException(e);

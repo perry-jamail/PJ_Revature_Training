@@ -9,5 +9,5 @@ public interface ReportDAO {
     public List<Expense> reportAllApproved();
     public List<Expense> reportByEmpId(int id);
     public List<Expense> reportByExpCategory(String category);
-    public List<Expense> reportByExpDate(Date date);
+    public List<Expense> reportByExpDate(String date);
 }

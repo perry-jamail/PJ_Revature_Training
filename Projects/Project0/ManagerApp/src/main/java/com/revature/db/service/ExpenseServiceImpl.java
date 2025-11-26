@@ -70,6 +70,7 @@ public class ExpenseServiceImpl implements ExpenseService {
                     column.equalsIgnoreCase("name") ||
                     column.equalsIgnoreCase("amount") ||
                     column.equalsIgnoreCase("category") ||
+                    column.equalsIgnoreCase("status") ||
                     column.equalsIgnoreCase("description") ||
                     column.equalsIgnoreCase("manager_comment")
             ) {

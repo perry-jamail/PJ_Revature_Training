@@ -16,18 +16,9 @@ public class Main {
     static Logger logger;
     static ExpenseService es = new ExpenseServiceImpl();
     static GenerateReport gr = new GenerateReport();
+    static ApproveDeny ad = new ApproveDeny();
 
     static void main(String[] args) {
-//        ExpenseService expenseService = new ExpenseServiceImpl();
-//        Expense expense = expenseService.getExpense(1);
-//        System.out.println(expense);
-//
-//        List<Expense> results = expenseService.getAllExpenses();
-//        for (Expense e : results) {
-//            System.out.println(e);
-//        }
-
-
         welcome();
     }
 
@@ -65,19 +56,23 @@ public class Main {
 
             switch (op) {
                 case "1":
-                    System.out.println("\n************************* Pending Expenses *************************");
                     List<Expense> results = es.getAllPending();
-                    for (Expense e : results) {
-                        System.out.println(e);
+                    if (results == null) {
+                        System.out.println("\nNo Pending Expenses\n");
+                    } else {
+                        System.out.println("\n************************* Pending Expenses *************************");
+                        for (Expense e : results) {
+                            System.out.println(e);
+                        }
+                        System.out.println("***************************** End List *****************************\n");
+                        logger.info("'{}' viewed all pending expenses.", username);
                     }
-                    System.out.println("***************************** End List *****************************\n");
                     break;
                 case "2":
-                    // TODO: Create approve/deny functionality
+                    ad.managerFuncOptions(username);
                     break;
                 case "3":
-                    // TODO: Create report generation functionality
-                    gr.reportOptions();
+                    gr.reportOptions(username);
                     break;
                 case "q":
                     scan.close();

@@ -41,7 +41,7 @@ public class ReportServiceImpl implements ReportService {
         }
     }
 
-    public List<Expense> reportByExpDate(Date date) {
+    public List<Expense> reportByExpDate(String date) {
         ReportDAO reportDAO = new ReportJDBCImpl();
         List<Expense> returnList = reportDAO.reportByExpDate(date);
 

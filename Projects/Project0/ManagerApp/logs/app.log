@@ -135,3 +135,76 @@
 2025-11-25 22:39:21,053 INFO [main] c.r.d.Main [Main.java:83] - Application quit.
 2025-11-25 23:02:15,136 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
 2025-11-25 23:06:58,486 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-26 10:03:17,926 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-26 10:04:32,007 INFO [main] c.r.d.Main [Main.java:85] - Application quit.
+2025-11-26 10:06:21,214 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-26 10:09:29,885 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-26 10:10:38,571 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-26 10:11:25,228 INFO [main] c.r.d.Main [Main.java:84] - Application quit.
+2025-11-26 11:20:56,997 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-26 11:22:21,670 INFO [main] c.r.d.Main [Main.java:76] - Application quit.
+2025-11-26 11:28:40,982 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-26 11:29:13,628 INFO [main] c.r.d.Main [Main.java:76] - Application quit.
+2025-11-26 11:31:15,047 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-26 11:32:36,707 INFO [main] c.r.d.Main [Main.java:76] - Application quit.
+2025-11-26 11:36:26,235 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-26 11:37:57,722 INFO [main] c.r.d.Main [Main.java:76] - Application quit.
+2025-11-26 11:39:15,765 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-26 11:40:18,171 INFO [main] c.r.d.Main [Main.java:76] - Application quit.
+2025-11-26 11:59:49,740 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-26 12:03:02,230 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-26 12:05:14,764 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-26 12:05:43,604 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-26 12:06:55,449 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-26 12:07:09,336 WARN [main] c.r.d.s.ManagerFuncServiceImpl [ManagerFuncServiceImpl.java:31] - 'admin' attempted to approve expense with the ID '17', but not pending expense exists with that ID.
+2025-11-26 12:07:19,173 INFO [main] c.r.d.Main [Main.java:80] - Application quit.
+2025-11-26 12:08:51,013 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-26 12:08:59,070 WARN [main] c.r.d.s.ManagerFuncServiceImpl [ManagerFuncServiceImpl.java:31] - 'admin' attempted to approve expense with the ID '1', but not pending expense exists with that ID.
+2025-11-26 12:09:08,647 WARN [main] c.r.d.s.ManagerFuncServiceImpl [ManagerFuncServiceImpl.java:54] - 'admin' attempted to deny expense with the ID '2', but not pending expense exists with that ID.
+2025-11-26 12:09:12,166 INFO [main] c.r.d.Main [Main.java:80] - Application quit.
+2025-11-26 13:33:41,453 INFO [main] c.r.d.Login [Login.java:47] - 'admin' logged in.
+2025-11-26 13:33:43,877 INFO [main] c.r.d.Main [Main.java:82] - Application quit.
+2025-11-26 13:33:58,607 WARN [main] c.r.d.Login [Login.java:51] - Unsuccessful login attempt for account 'admin'.
+2025-11-26 13:34:07,399 INFO [main] c.r.d.Login [Login.java:91] - Application quit.
+2025-11-26 13:36:27,479 WARN [main] c.r.d.Login [Login.java:51] - Unsuccessful login attempt for account 'admin'.
+2025-11-26 13:36:31,384 INFO [main] c.r.d.Login [Login.java:91] - Application quit.
+2025-11-26 13:44:30,606 INFO [main] c.r.d.Login [Login.java:86] - Account created with username 'harperj'.
+2025-11-26 13:44:43,898 INFO [main] c.r.d.Login [Login.java:59] - Application quit.
+2025-11-26 13:45:06,588 INFO [main] c.r.d.Login [Login.java:59] - Application quit.
+2025-11-26 13:46:27,420 INFO [main] c.r.d.Login [Login.java:85] - Account created with username 'harperj'.
+2025-11-26 13:46:36,671 INFO [main] c.r.d.Login [Login.java:47] - 'harperj' logged in.
+2025-11-26 13:46:46,803 INFO [main] c.r.d.Main [Main.java:82] - Application quit.
+2025-11-26 13:47:23,607 INFO [main] c.r.d.Login [Login.java:59] - Application quit.
+2025-11-26 13:49:18,728 INFO [main] c.r.d.Login [Login.java:47] - 'admin' logged in.
+2025-11-26 13:49:23,104 INFO [main] c.r.d.Main [Main.java:82] - Application quit.
+2025-11-26 13:50:05,676 INFO [main] c.r.d.Login [Login.java:85] - Account created with username 'harper'.
+2025-11-26 13:50:14,946 INFO [main] c.r.d.Login [Login.java:47] - 'harper' logged in.
+2025-11-26 13:50:17,162 INFO [main] c.r.d.Main [Main.java:82] - Application quit.
+2025-11-26 13:50:30,691 INFO [main] c.r.d.Login [Login.java:59] - Application quit.
+2025-11-26 13:57:34,281 INFO [main] c.r.d.Login [Login.java:59] - Application quit.
+2025-11-26 13:57:45,454 INFO [main] c.r.d.Login [Login.java:85] - Account created with username 'admin'.
+2025-11-26 13:57:48,650 INFO [main] c.r.d.Login [Login.java:47] - 'admin' logged in.
+2025-11-26 13:57:50,485 INFO [main] c.r.d.Main [Main.java:82] - Application quit.
+2025-11-26 13:58:09,246 INFO [main] c.r.d.Login [Login.java:59] - Application quit.
+2025-11-26 14:00:21,675 INFO [main] c.r.d.Login [Login.java:86] - Account created with username 'admin'.
+2025-11-26 14:00:28,641 INFO [main] c.r.d.Login [Login.java:59] - Application quit.
+2025-11-26 14:01:48,326 INFO [main] c.r.d.Login [Login.java:87] - Account created with username 'admin'.
+2025-11-26 14:01:54,082 INFO [main] c.r.d.Login [Login.java:60] - Application quit.
+2025-11-26 14:02:25,899 INFO [main] c.r.d.Login [Login.java:85] - Account created with username 'admin'.
+2025-11-26 14:02:30,996 INFO [main] c.r.d.Login [Login.java:47] - 'admin' logged in.
+2025-11-26 14:02:33,134 INFO [main] c.r.d.Main [Main.java:82] - Application quit.
+2025-11-26 14:03:08,609 INFO [main] c.r.d.Login [Login.java:59] - Application quit.
+2025-11-26 14:03:17,168 INFO [main] c.r.d.Login [Login.java:85] - Account created with username 'admin'.
+2025-11-26 14:03:20,458 INFO [main] c.r.d.Login [Login.java:47] - 'admin' logged in.
+2025-11-26 14:03:22,968 INFO [main] c.r.d.Main [Main.java:82] - Application quit.
+2025-11-26 14:03:33,299 INFO [main] c.r.d.Login [Login.java:59] - Application quit.
+2025-11-26 14:19:34,751 INFO [main] c.r.d.Login [Login.java:89] - Account created with username 'harperj'.
+2025-11-26 14:19:44,762 INFO [main] c.r.d.Login [Login.java:47] - 'harperj' logged in.
+2025-11-26 14:19:47,370 INFO [main] c.r.d.Main [Main.java:82] - Application quit.
+2025-11-26 14:20:01,261 INFO [main] c.r.d.Login [Login.java:47] - 'harperj' logged in.
+2025-11-26 14:20:09,535 INFO [main] c.r.d.Main [Main.java:82] - Application quit.
+2025-11-26 14:20:52,309 INFO [main] c.r.d.Login [Login.java:90] - Account created with username 'admin'.
+2025-11-26 14:21:03,920 INFO [main] c.r.d.Login [Login.java:47] - 'admin' logged in.
+2025-11-26 14:21:06,478 INFO [main] c.r.d.Main [Main.java:82] - Application quit.
+2025-11-26 14:21:16,043 INFO [main] c.r.d.Login [Login.java:47] - 'admin' logged in.
+2025-11-26 14:21:20,027 INFO [main] c.r.d.Main [Main.java:82] - Application quit.

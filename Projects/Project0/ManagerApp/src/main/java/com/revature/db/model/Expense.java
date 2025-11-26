@@ -7,7 +7,7 @@ public class Expense {
     private int employee_id;
     private String manager_username;
     private String name;
-    private Date submission_date;
+    private String submission_date;
     private float amount;
     private String category;
     private String status;
@@ -18,7 +18,7 @@ public class Expense {
 
     }
 
-    public Expense(int employee_id, String manager_username, String name, Date submission_date, float amount, String category, String status, String description, String manager_comment) {
+    public Expense(int employee_id, String manager_username, String name, String submission_date, float amount, String category, String status, String description, String manager_comment) {
         this.employee_id = employee_id;
         this.manager_username = manager_username;
         this.name = name;
@@ -30,7 +30,7 @@ public class Expense {
         this.manager_comment = manager_comment;
     }
 
-    public Expense(int employee_id, String name, Date submission_date, float amount, String category, String description) {
+    public Expense(int employee_id, String name, String submission_date, float amount, String category, String description) {
         this.employee_id = employee_id;
         this.name = name;
         this.submission_date = submission_date;
@@ -40,7 +40,7 @@ public class Expense {
         this.status = "Pending";
     }
 
-    public Expense(int id, int employee_id, String manager_username, String name, Date submission_date, float amount, String category, String status, String description, String manager_comment) {
+    public Expense(int id, int employee_id, String manager_username, String name, String submission_date, float amount, String category, String status, String description, String manager_comment) {
         this.id = id;
         this.employee_id = employee_id;
         this.manager_username = manager_username;
@@ -77,7 +77,7 @@ public class Expense {
         return employee_id;
     }
 
-    public Date getSubmission_date() {
+    public String getSubmission_date() {
         return submission_date;
     }
 
