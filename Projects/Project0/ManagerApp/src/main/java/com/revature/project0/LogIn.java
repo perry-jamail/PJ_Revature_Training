@@ -44,11 +44,9 @@ public class LogIn {
                 System.out.println("Username not found.");
             }
         }
-        if (username.equals("q")) {
-            System.out.println("Quitting application...");
-            logger.info("Application quit.");
-            System.exit(0);
-        }
+        System.out.println("Quitting application...");
+        logger.info("Application quit.");
+        System.exit(0);
         return "";
     }
 

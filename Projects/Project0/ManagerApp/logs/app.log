@@ -114,3 +114,24 @@
 2025-11-22 23:02:34,269 INFO [main] c.r.p.GenerateReport [GenerateReport.java:137] - 'kenzierose' generated an approved expenses report by expense date '20142302'.
 2025-11-22 23:03:06,974 INFO [main] c.r.p.GenerateReport [GenerateReport.java:105] - 'kenzierose' generated an approved expenses report by category 'Necessities'.
 2025-11-22 23:03:41,543 INFO [main] c.r.p.ManagerApplication [ManagerApplication.java:66] - Application quit.
+2025-11-25 18:04:45,265 INFO [main] c.r.d.d.Login [Login.java:98] - Application quit.
+2025-11-25 18:05:28,195 WARN [main] c.r.d.d.Login [Login.java:101] - Duplicate account creation attempted for 'admin'.
+2025-11-25 18:14:31,424 INFO [main] c.r.d.d.Login [Login.java:110] - Account created with username 'admin'.
+2025-11-25 18:14:42,112 INFO [main] c.r.d.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-25 18:14:45,856 INFO [main] c.r.d.Main [Main.java:78] - Application quit.
+2025-11-25 18:16:17,189 INFO [main] c.r.d.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-25 18:16:20,435 INFO [main] c.r.d.Main [Main.java:78] - Application quit.
+2025-11-25 18:16:40,197 WARN [main] c.r.d.d.Login [Login.java:57] - Unsuccessful login attempt for account 'admin'.
+2025-11-25 18:16:47,476 INFO [main] c.r.d.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-25 18:16:54,668 INFO [main] c.r.d.Main [Main.java:78] - Application quit.
+2025-11-25 18:33:00,826 INFO [main] c.r.d.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-25 18:34:44,861 INFO [main] c.r.d.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-25 18:35:05,388 INFO [main] c.r.d.Main [Main.java:83] - Application quit.
+2025-11-25 19:14:30,948 INFO [main] c.r.d.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-25 19:14:52,186 INFO [main] c.r.d.Main [Main.java:84] - Application quit.
+2025-11-25 19:38:11,786 INFO [main] c.r.d.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-25 19:39:06,290 INFO [main] c.r.d.Main [Main.java:84] - Application quit.
+2025-11-25 22:39:18,862 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-25 22:39:21,053 INFO [main] c.r.d.Main [Main.java:83] - Application quit.
+2025-11-25 23:02:15,136 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
+2025-11-25 23:06:58,486 INFO [main] c.r.d.Login [Login.java:53] - 'admin' logged in.
