@@ -208,3 +208,11 @@
 2025-11-26 14:21:06,478 INFO [main] c.r.d.Main [Main.java:82] - Application quit.
 2025-11-26 14:21:16,043 INFO [main] c.r.d.Login [Login.java:47] - 'admin' logged in.
 2025-11-26 14:21:20,027 INFO [main] c.r.d.Main [Main.java:82] - Application quit.
+2025-11-27 17:27:25,993 INFO [main] c.r.d.Login [Login.java:39] - 'admin' logged in.
+2025-11-27 17:27:56,160 INFO [main] c.r.d.GenerateReport [GenerateReport.java:26] - 'admin' generated a report of all approved expenses.
+2025-11-27 17:28:01,163 INFO [main] c.r.d.Main [Main.java:80] - Application quit.
+2025-11-27 17:28:51,314 INFO [main] c.r.d.Login [Login.java:39] - 'admin' logged in.
+2025-11-27 17:29:02,635 WARN [main] c.r.d.s.ManagerFuncServiceImpl [ManagerFuncServiceImpl.java:31] - 'admin' attempted to approve expense with the ID '1', but not pending expense exists with that ID.
+2025-11-27 17:29:11,025 INFO [main] c.r.d.GenerateReport [GenerateReport.java:26] - 'admin' generated a report of all approved expenses.
+2025-11-27 17:29:36,465 INFO [main] c.r.d.GenerateReport [GenerateReport.java:38] - 'admin' generated a report of all approved expenses under the category 'travel'.
+2025-11-27 17:29:51,244 INFO [main] c.r.d.Main [Main.java:80] - Application quit.

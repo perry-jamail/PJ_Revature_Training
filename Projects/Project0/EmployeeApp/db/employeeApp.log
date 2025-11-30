@@ -1,0 +1,240 @@
+2025-11-27 17:44:12,013 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-27 17:44:12,014 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-27 17:44:12,014 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-27 17:59:19,562 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-27 17:59:19,562 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-27 17:59:19,563 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:09:46,652 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:09:46,654 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:09:46,654 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:10:22,213 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:10:22,214 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:10:22,214 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:10:45,132 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:10:45,133 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:10:45,133 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:11:10,404 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:11:10,404 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:11:10,405 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:11:10,428 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-29 15:14:50,197 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:14:50,200 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:14:50,200 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:15:07,465 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-29 15:15:37,263 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:15:37,265 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:15:37,265 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:27:13,679 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:27:13,679 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:27:13,680 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:27:24,966 - root - INFO - Application quit.
+2025-11-29 15:28:42,484 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:28:42,485 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:28:42,485 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:28:59,640 - root - INFO - Application quit.
+2025-11-29 15:29:31,995 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:29:31,996 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:29:31,996 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:29:40,641 - root - INFO - Application quit.
+2025-11-29 15:31:47,072 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:31:47,073 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:31:47,073 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:31:54,766 - root - INFO - Application quit.
+2025-11-29 15:36:11,217 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:36:11,217 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:36:11,217 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:36:20,845 - root - INFO - 'admin' logged in.
+2025-11-29 15:36:25,917 - root - INFO - Application quit.
+2025-11-29 15:37:06,418 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:37:06,419 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:37:06,419 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:39:53,291 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:39:53,292 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:39:53,292 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:40:00,931 - root - INFO - 'admin' logged in.
+2025-11-29 15:40:04,228 - root - INFO - Application quit.
+2025-11-29 15:40:10,706 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:40:10,707 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:40:10,707 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:40:19,052 - root - WARNING - Unsuccessful login attempt for account 'admin'.
+2025-11-29 15:40:24,796 - root - INFO - 'admin' logged in.
+2025-11-29 15:41:03,393 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-29 15:41:21,150 - root - INFO - Application quit.
+2025-11-29 15:48:16,755 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:48:16,756 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:48:16,756 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:48:27,892 - root - INFO - Account created with username 'test'.
+2025-11-29 15:48:33,898 - root - INFO - 'test' logged in.
+2025-11-29 15:48:37,626 - root - INFO - Application quit.
+2025-11-29 15:49:06,099 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:49:06,099 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:49:06,099 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:49:14,558 - root - INFO - Application quit.
+2025-11-29 15:50:37,200 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:50:37,200 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:50:37,201 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:50:44,129 - root - INFO - Application quit.
+2025-11-29 15:51:04,944 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:51:04,944 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:51:04,945 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:51:11,266 - root - INFO - Application quit.
+2025-11-29 15:52:01,834 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:52:01,834 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:52:01,835 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:54:55,418 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:54:55,419 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:54:55,419 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:55:02,342 - root - INFO - Application quit.
+2025-11-29 15:57:09,071 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:57:09,071 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:57:09,072 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:57:17,335 - root - INFO - Account created with username 'test'.
+2025-11-29 15:57:38,873 - root - INFO - 'test' logged in.
+2025-11-29 15:57:40,986 - root - INFO - Application quit.
+2025-11-29 15:58:04,795 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:58:04,795 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:58:04,795 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:58:11,247 - root - WARNING - Duplicate account creation attempted for 'test'.
+2025-11-29 15:58:54,548 - root - INFO - Application quit.
+2025-11-29 15:58:59,006 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 15:58:59,007 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 15:58:59,007 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 15:59:05,524 - root - INFO - 'test' logged in.
+2025-11-29 15:59:32,342 - root - INFO - Application quit.
+2025-11-29 16:19:33,994 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 16:19:33,995 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 16:19:33,995 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 16:25:58,827 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 16:25:58,828 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 16:25:58,828 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 16:30:25,139 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 16:30:25,140 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 16:30:25,140 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 16:30:31,595 - root - INFO - 'test' logged in.
+2025-11-29 16:41:09,536 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 16:41:09,536 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 16:41:09,536 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 16:41:15,470 - root - INFO - 'test' logged in.
+2025-11-29 16:41:19,233 - root - INFO - 'test' viewed all expenses associated with this account.
+2025-11-29 16:42:39,057 - root - ERROR - 'test' has entered too short of a description when creating a new expense.
+2025-11-29 16:43:03,242 - root - INFO - 'test' added expense 'Test Expense'.
+2025-11-29 16:43:46,524 - root - INFO - 'test' viewed all expenses associated with this account.
+2025-11-29 16:45:02,909 - root - INFO - Application quit.
+2025-11-29 16:48:04,879 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 16:48:04,880 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 16:48:04,880 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 16:48:10,555 - root - INFO - 'test' logged in.
+2025-11-29 16:48:15,847 - root - INFO - 'test' viewed all expenses associated with this account.
+2025-11-29 16:51:02,502 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 16:51:02,503 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 16:51:02,503 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 16:51:07,975 - root - INFO - 'test' logged in.
+2025-11-29 16:51:10,850 - root - INFO - 'test' viewed all expenses associated with this account.
+2025-11-29 16:52:59,939 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 16:52:59,940 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 16:52:59,940 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 16:53:04,866 - root - INFO - 'test' logged in.
+2025-11-29 16:59:20,981 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 16:59:20,981 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 16:59:20,981 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 16:59:26,125 - root - INFO - 'test' logged in.
+2025-11-29 16:59:28,137 - root - INFO - 'test' viewed all expenses associated with this account.
+2025-11-29 17:00:35,611 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 17:00:35,611 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 17:00:35,611 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 17:00:41,712 - root - INFO - 'test' logged in.
+2025-11-29 17:02:12,388 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 17:02:12,388 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 17:02:12,388 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 17:02:16,691 - root - INFO - 'test' logged in.
+2025-11-29 17:07:05,008 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 17:07:05,008 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 17:07:05,008 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 17:07:10,123 - root - INFO - 'test' logged in.
+2025-11-29 17:07:37,132 - root - ERROR - 'test' has entered an invalid amount when creating a new expense.
+2025-11-29 17:08:06,581 - root - ERROR - 'test' has entered an invalid amount when creating a new expense.
+2025-11-29 17:08:14,357 - root - ERROR - 'test' has entered a negative amount when creating a new expense.
+2025-11-29 17:15:45,675 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 17:15:45,675 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 17:15:45,675 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 17:15:53,850 - root - INFO - 'test' logged in.
+2025-11-29 17:15:56,132 - root - INFO - 'test' viewed all expenses associated with this account.
+2025-11-29 17:16:15,028 - root - ERROR - 'test' has entered an invalid amount when creating a new expense.
+2025-11-29 17:16:23,508 - root - ERROR - 'test' has entered an invalid amount when creating a new expense.
+2025-11-29 17:16:30,204 - root - ERROR - 'test' has entered a negative amount when creating a new expense.
+2025-11-29 17:16:46,956 - root - ERROR - 'test' has entered an invalid amount when creating a new expense.
+2025-11-29 17:16:55,428 - root - ERROR - 'test' has entered a negative amount when creating a new expense.
+2025-11-29 17:16:59,188 - root - ERROR - 'test' has entered a negative amount when creating a new expense.
+2025-11-29 17:17:23,690 - root - INFO - 'test' added expense 'Test Expense 2'.
+2025-11-29 17:17:27,351 - root - INFO - 'test' viewed all expenses associated with this account.
+2025-11-29 17:17:32,485 - root - INFO - Application quit.
+2025-11-29 17:23:50,224 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 17:23:50,224 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 17:23:50,225 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 17:24:33,152 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 17:24:33,152 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 17:24:33,153 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 17:24:40,225 - root - INFO - 'admin' logged in.
+2025-11-29 17:24:47,372 - root - INFO - 'admin' viewed all expenses associated with this account.
+2025-11-29 17:25:00,005 - root - INFO - 'admin' viewed all Approved and Denied expenses associated with this account.
+2025-11-29 17:26:55,047 - root - INFO - Application quit.
+2025-11-29 17:27:00,331 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 17:27:00,332 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 17:27:00,332 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 17:27:03,797 - root - INFO - 'test' logged in.
+2025-11-29 17:27:05,361 - root - INFO - 'test' viewed all expenses associated with this account.
+2025-11-29 17:28:31,288 - root - INFO - Application quit.
+2025-11-29 17:39:30,098 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 17:39:30,099 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 17:39:30,099 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 17:39:35,723 - root - INFO - 'test' logged in.
+2025-11-29 17:40:11,055 - root - INFO - 'test' viewed all expenses associated with this account.
+2025-11-29 17:40:13,325 - root - INFO - Application quit.
+2025-11-29 17:46:01,005 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 17:46:01,006 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 17:46:01,006 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 17:46:10,039 - root - INFO - 'test' logged in.
+2025-11-29 17:47:35,514 - root - INFO - Application quit.
+2025-11-29 17:47:39,329 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 17:47:39,329 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 17:47:39,330 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 17:47:43,442 - root - INFO - 'test' logged in.
+2025-11-29 17:47:51,402 - root - INFO - Application quit.
+2025-11-29 17:49:01,516 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 17:49:01,516 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 17:49:01,516 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 17:49:05,388 - root - INFO - 'test' logged in.
+2025-11-29 17:49:11,172 - root - INFO - Application quit.
+2025-11-29 17:51:38,240 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 17:51:38,240 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 17:51:38,240 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 17:51:44,088 - root - INFO - 'test' logged in.
+2025-11-29 17:51:50,899 - root - INFO - Application quit.
+2025-11-29 18:15:12,667 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 18:15:12,668 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 18:15:12,668 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 18:15:36,530 - root - INFO - 'test' logged in.
+2025-11-29 18:15:38,959 - root - INFO - 'test' viewed all expenses associated with this account.
+2025-11-29 18:16:09,363 - root - WARNING - 'test' has entered an invalid ID when editing a pending expense.
+2025-11-29 18:17:21,597 - root - ERROR - 'test' has entered an invalid amount when editing a pending expense.
+2025-11-29 18:19:41,963 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 18:19:41,963 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 18:19:41,964 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 18:19:47,729 - root - INFO - 'test' logged in.
+2025-11-29 18:19:49,869 - root - INFO - 'test' viewed all expenses associated with this account.
+2025-11-29 18:20:00,553 - root - WARNING - 'test' has entered an invalid ID when editing a pending expense.
+2025-11-29 18:20:39,672 - root - INFO - 'test' edited expense 'Edited Expense 1'.
+2025-11-29 18:20:45,191 - root - INFO - 'test' viewed all expenses associated with this account.
+2025-11-29 18:21:47,173 - root - ERROR - 'test' has entered an invalid amount when creating a new expense.
+2025-11-29 18:21:52,357 - root - ERROR - 'test' has entered an invalid amount when creating a new expense.
+2025-11-29 18:21:57,749 - root - WARNING - 'test' has entered an invalid ID when editing a pending expense.
+2025-11-29 18:22:15,790 - root - INFO - Application quit.
+2025-11-29 18:33:34,403 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 18:33:34,404 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 18:33:34,404 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 18:33:39,818 - root - INFO - 'test' logged in.
+2025-11-29 18:33:42,109 - root - INFO - 'test' viewed all expenses associated with this account.
+2025-11-29 18:34:00,314 - root - WARNING - 'test' has entered an invalid ID when deleting a pending expense.
+2025-11-29 18:34:15,730 - root - INFO - 'test' deleted pending expense 'Test Expense 2'.
+2025-11-29 18:34:21,860 - root - INFO - 'test' viewed all expenses associated with this account.
+2025-11-29 18:34:34,435 - root - ERROR - 'test' has entered an invalid ID when deleting an expense.
