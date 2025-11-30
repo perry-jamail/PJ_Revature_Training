@@ -233,3 +233,28 @@
 2025-11-29 19:35:34,477 INFO [main] c.r.d.GenerateReport [GenerateReport.java:38] - 'AmaraAnn' generated a report of all approved expenses under the category 'Travel'.
 2025-11-29 19:36:08,282 INFO [main] c.r.d.GenerateReport [GenerateReport.java:44] - 'AmaraAnn' generated a report of all approved expenses under the date '2025-11-29'.
 2025-11-29 19:39:08,327 INFO [main] c.r.d.Main [Main.java:80] - Application quit.
+2025-11-29 20:36:23,787 INFO [main] c.r.d.Login [Login.java:39] - 'admin' logged in.
+2025-11-29 20:36:37,221 INFO [main] c.r.d.GenerateReport [GenerateReport.java:27] - 'admin' generated a report of all expenses.
+2025-11-29 20:36:59,865 INFO [main] c.r.d.Main [Main.java:80] - Application quit.
+2025-11-29 20:40:20,898 INFO [main] c.r.d.Login [Login.java:39] - 'admin' logged in.
+2025-11-29 20:41:20,554 INFO [main] c.r.d.Main [Main.java:80] - Application quit.
+2025-11-29 20:41:32,101 INFO [main] c.r.d.Login [Login.java:39] - 'admin' logged in.
+2025-11-29 20:42:04,473 INFO [main] c.r.d.GenerateReport [GenerateReport.java:27] - 'admin' generated a report of all expenses.
+2025-11-29 20:42:39,256 INFO [main] c.r.d.GenerateReport [GenerateReport.java:31] - 'admin' generated a report of all approved expenses.
+2025-11-29 20:42:49,768 INFO [main] c.r.d.GenerateReport [GenerateReport.java:35] - 'admin' generated a report of all denied expenses.
+2025-11-29 20:42:58,257 INFO [main] c.r.d.GenerateReport [GenerateReport.java:39] - 'admin' generated a report of all pending expenses.
+2025-11-29 20:43:12,833 INFO [main] c.r.d.GenerateReport [GenerateReport.java:45] - 'admin' generated a report of all expenses under the employee with ID '3'.
+2025-11-29 20:43:47,219 INFO [main] c.r.d.GenerateReport [GenerateReport.java:51] - 'admin' generated a report of all expenses under the category 'Tech'.
+2025-11-29 20:49:08,146 INFO [main] c.r.d.GenerateReport [GenerateReport.java:57] - 'admin' generated a report of all expenses under the date '2025-11-29'.
+2025-11-29 20:51:48,573 INFO [main] c.r.d.Login [Login.java:39] - 'admin' logged in.
+2025-11-29 20:51:54,424 INFO [main] c.r.d.GenerateReport [GenerateReport.java:27] - 'admin' generated a report of all expenses.
+2025-11-29 20:52:02,188 INFO [main] c.r.d.GenerateReport [GenerateReport.java:31] - 'admin' generated a report of all approved expenses.
+2025-11-29 20:52:06,364 INFO [main] c.r.d.GenerateReport [GenerateReport.java:35] - 'admin' generated a report of all denied expenses.
+2025-11-29 20:52:10,876 INFO [main] c.r.d.GenerateReport [GenerateReport.java:39] - 'admin' generated a report of all pending expenses.
+2025-11-29 20:52:18,537 INFO [main] c.r.d.GenerateReport [GenerateReport.java:45] - 'admin' generated a report of all expenses under the employee with ID '1'.
+2025-11-29 20:52:32,321 INFO [main] c.r.d.GenerateReport [GenerateReport.java:51] - 'admin' generated a report of all expenses under the category 'Tech'.
+2025-11-29 20:53:08,209 INFO [main] c.r.d.GenerateReport [GenerateReport.java:57] - 'admin' generated a report of all expenses under the date '2025-11-26'.
+2025-11-29 20:53:19,501 INFO [main] c.r.d.Main [Main.java:80] - Application quit.
+2025-11-29 21:04:24,539 INFO [main] c.r.d.Main [Main.java:79] - Application quit.
+2025-11-29 21:06:08,069 WARN [main] c.r.d.Login [Login.java:42] - Unsuccessful login attempt for account 'admin'.
+2025-11-29 21:06:18,733 INFO [main] c.r.d.Login [Login.java:38] - 'admin' logged in.

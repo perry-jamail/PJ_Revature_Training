@@ -1,7 +1,5 @@
 package com.revature.db.model;
 
-import java.util.Date;
-
 public class Expense {
     private int id;
     private int employee_id;

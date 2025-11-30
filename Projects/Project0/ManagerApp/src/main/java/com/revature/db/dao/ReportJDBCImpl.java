@@ -10,6 +10,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ReportJDBCImpl implements ReportDAO {
+    public List<Expense> reportAll() {
+        ExpenseService expenseService = new ExpenseServiceImpl();
+
+        return expenseService.getAllExpenses();
+    }
+
     public List<Expense> reportAllApproved() {
         ExpenseService expenseService = new ExpenseServiceImpl();
         List<Expense> fullList = expenseService.getAllExpenses();
@@ -23,42 +29,68 @@ public class ReportJDBCImpl implements ReportDAO {
         return approvedList;
     }
 
-    public List<Expense> reportByEmpId(int id) {
-        ReportService reportService = new ReportServiceImpl();
-        List<Expense> fullApprovalList = reportService.reportAllApproved();
-        List<Expense> empApprovedList = new ArrayList<>();
+    public List<Expense> reportAllDenied() {
+        ExpenseService expenseService = new ExpenseServiceImpl();
+        List<Expense> fullList = expenseService.getAllExpenses();
+        List<Expense> deniedList = new ArrayList<>();
 
-        for (Expense e : fullApprovalList) {
-            if (e.getEmployee_id() == id) {
-                empApprovedList.add(e);
+        for (Expense e : fullList) {
+            if (e.getStatus().equalsIgnoreCase("Denied")) {
+                deniedList.add(e);
             }
         }
-        return empApprovedList;
+        return deniedList;
+    }
+
+    public List<Expense> reportAllPending() {
+        ExpenseService expenseService = new ExpenseServiceImpl();
+        List<Expense> fullList = expenseService.getAllExpenses();
+        List<Expense> pendingList = new ArrayList<>();
+
+        for (Expense e : fullList) {
+            if (e.getStatus().equalsIgnoreCase("Pending")) {
+                pendingList.add(e);
+            }
+        }
+        return pendingList;
+    }
+
+    public List<Expense> reportByEmpId(int id) {
+        ReportService reportService = new ReportServiceImpl();
+        List<Expense> fullExpenseList = reportService.reportAll();
+        List<Expense> empList = new ArrayList<>();
+
+        for (Expense e : fullExpenseList) {
+            if (e.getEmployee_id() == id) {
+                empList.add(e);
+            }
+        }
+        return empList;
     }
 
     public List<Expense> reportByExpCategory(String category) {
         ReportService reportService = new ReportServiceImpl();
-        List<Expense> fullApprovalList = reportService.reportAllApproved();
-        List<Expense> catApprovedList = new ArrayList<>();
+        List<Expense> fullExpenseList = reportService.reportAll();
+        List<Expense> catList = new ArrayList<>();
 
-        for (Expense e : fullApprovalList) {
+        for (Expense e : fullExpenseList) {
             if (e.getCategory().equalsIgnoreCase(category)) {
-                catApprovedList.add(e);
+                catList.add(e);
             }
         }
-        return catApprovedList;
+        return catList;
     }
 
     public List<Expense> reportByExpDate(String date) {
         ReportService reportService = new ReportServiceImpl();
-        List<Expense> fullApprovalList = reportService.reportAllApproved();
-        List<Expense> dateApprovedList = new ArrayList<>();
+        List<Expense> fullExpenseList = reportService.reportAll();
+        List<Expense> dateList = new ArrayList<>();
 
-        for (Expense e : fullApprovalList) {
+        for (Expense e : fullExpenseList) {
             if (e.getSubmission_date().equalsIgnoreCase(date)) {
-                dateApprovedList.add(e);
+                dateList.add(e);
             }
         }
-        return dateApprovedList;
+        return dateList;
     }
 }

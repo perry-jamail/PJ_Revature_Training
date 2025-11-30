@@ -35,8 +35,7 @@ public class Main {
             application();
         } else if (login_or_create.equals("2")) {
             lg.addCred();
-            username = lg.login();
-            application();
+            welcome();
         } else {
             System.out.println("Please enter either 1 or 2\n");
             welcome();
@@ -50,7 +49,7 @@ public class Main {
         String op = "";
         while (!op.equals("q")) {
             System.out.print("Please enter a function to perform:\n\t1) View List of Pending Expenses\n\t" +
-                    "2) Approve or Deny Pending Expenses with Comments\n\t3) Generate Report of Approved Expenses\n\t" +
+                    "2) Approve or Deny Pending Expenses with Comments\n\t3) Generate Report of Expenses\n\t" +
                     "q) Quit Application\n> ");
             op = scan.next();
 

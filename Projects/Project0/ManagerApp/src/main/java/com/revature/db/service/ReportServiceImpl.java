@@ -8,9 +8,42 @@ import java.util.Date;
 import java.util.List;
 
 public class ReportServiceImpl implements ReportService {
+    public List<Expense> reportAll() {
+        ReportDAO reportDAO = new ReportJDBCImpl();
+        List<Expense> returnList = reportDAO.reportAll();
+
+        if (!returnList.isEmpty()) {
+            return returnList;
+        } else {
+            return null;
+        }
+    }
+
     public List<Expense> reportAllApproved() {
         ReportDAO reportDAO = new ReportJDBCImpl();
         List<Expense> returnList = reportDAO.reportAllApproved();
+
+        if (!returnList.isEmpty()) {
+            return returnList;
+        } else {
+            return null;
+        }
+    }
+
+    public List<Expense> reportAllDenied() {
+        ReportDAO reportDAO = new ReportJDBCImpl();
+        List<Expense> returnList = reportDAO.reportAllDenied();
+
+        if (!returnList.isEmpty()) {
+            return returnList;
+        } else {
+            return null;
+        }
+    }
+
+    public List<Expense> reportAllPending() {
+        ReportDAO reportDAO = new ReportJDBCImpl();
+        List<Expense> returnList = reportDAO.reportAllPending();
 
         if (!returnList.isEmpty()) {
             return returnList;
