@@ -16,7 +16,7 @@ def edit_pending_expense(username, connection):
     if len(pending_expenses) > 0:
         pending_expenses_list = [expense[0] for expense in pending_expenses]
     else:
-        print(f"\nThere are no Approved or Denied expenses listed for '{username}'.\n")
+        print(f"\nThere are no Pending expenses listed for '{username}'.\n")
         cursor.close()
         return None
 
@@ -38,11 +38,11 @@ def edit_pending_expense(username, connection):
 
         while not amountValid:
             if validate_float_number(updated_expense["amount"]):
-                if float(updated_expense["amount"]) > 0:
+                if 0 < float(updated_expense["amount"]) < 100000000.00:
                     amountValid = True
                 else:
-                    logging.error(f"'{username}' has entered a negative amount when editing a pending expense.")
-                    updated_expense["amount"] = input("Amount cannot be less than 0. Please enter a valid amount: ")
+                    logging.error(f"'{username}' has entered an invalid amount when editing a pending expense.")
+                    updated_expense["amount"] = input("Amount must be between 0 and 100 million. Please enter a valid amount: ")
             else:
                 logging.error(f"'{username}' has entered an invalid amount when editing a pending expense.")
                 updated_expense["amount"] = input("Amount must be a valid number. Please enter a valid amount: ")

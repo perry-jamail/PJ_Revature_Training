@@ -16,7 +16,7 @@ def delete_pending_expense(username, connection):
     if len(pending_expenses) > 0:
         pending_expenses_list = [expense[0] for expense in pending_expenses]
     else:
-        print(f"\nThere are no Approved or Denied expenses listed for '{username}'.\n")
+        print(f"\nThere are no Pending expenses listed for '{username}'.\n")
         cursor.close()
         return None
 

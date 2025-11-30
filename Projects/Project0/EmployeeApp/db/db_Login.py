@@ -53,11 +53,11 @@ def addCred(connection):
             password = input('Enter your new account\'s password: ')
             cursor.execute(f"insert into employees (username, password) values('{username}', '{password}')")
             connection.commit()
-            print(f"Account with the username '{username}' was successfully created.")
+            print(f"Account with the username '{username}' was successfully created.\n")
             logging.info(f"Account created with username '{username}'.")
             cursor.close()
         else:
-            print("Username already exists.")
+            print("Username already exists.\n")
             logging.warning(f"Duplicate account creation attempted for '{username}'.")
             cursor.close()
     else:

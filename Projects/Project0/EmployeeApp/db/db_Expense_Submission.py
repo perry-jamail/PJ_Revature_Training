@@ -24,11 +24,11 @@ def add_expense(username, connection):
 
     while not amountValid:
         if validate_number(newExpense["amount"]):
-            if float(newExpense["amount"]) > 0:
+            if 0 < float(newExpense["amount"]) < 100000000.00:
                 amountValid = True
             else:
-                logging.error(f"'{username}' has entered a negative amount when creating a new expense.")
-                newExpense["amount"] = input("Amount cannot be less than 0. Please enter a valid amount: ")
+                logging.error(f"'{username}' has entered an invalid amount when creating a new expense.")
+                newExpense["amount"] = input("Amount must be between 0 and 100 million. Please enter a valid amount: ")
         else:
             logging.error(f"'{username}' has entered an invalid amount when creating a new expense.")
             newExpense["amount"] = input("Amount must be a valid number. Please enter a valid amount: ")
@@ -51,7 +51,7 @@ def add_expense(username, connection):
 
 def validate_number(input_str):
     try:
-        int(input_str)
+        float(input_str)
         return True
     except ValueError:
         return False

@@ -216,3 +216,20 @@
 2025-11-27 17:29:11,025 INFO [main] c.r.d.GenerateReport [GenerateReport.java:26] - 'admin' generated a report of all approved expenses.
 2025-11-27 17:29:36,465 INFO [main] c.r.d.GenerateReport [GenerateReport.java:38] - 'admin' generated a report of all approved expenses under the category 'travel'.
 2025-11-27 17:29:51,244 INFO [main] c.r.d.Main [Main.java:80] - Application quit.
+2025-11-29 18:38:41,723 INFO [main] c.r.d.Login [Login.java:39] - 'admin' logged in.
+2025-11-29 18:38:52,304 INFO [main] c.r.d.Main [Main.java:68] - 'admin' viewed all pending expenses.
+2025-11-29 18:39:16,377 INFO [main] c.r.d.GenerateReport [GenerateReport.java:26] - 'admin' generated a report of all approved expenses.
+2025-11-29 18:39:34,482 INFO [main] c.r.d.Main [Main.java:80] - Application quit.
+2025-11-29 19:30:30,601 INFO [main] c.r.d.Login [Login.java:81] - Account created with username 'AmaraAnn'.
+2025-11-29 19:30:54,377 INFO [main] c.r.d.Login [Login.java:39] - 'AmaraAnn' logged in.
+2025-11-29 19:31:21,612 INFO [main] c.r.d.Main [Main.java:68] - 'AmaraAnn' viewed all pending expenses.
+2025-11-29 19:32:58,645 INFO [main] c.r.d.d.ManagerFuncJDBCImpl [ManagerFuncJDBCImpl.java:24] - 'AmaraAnn' approved pending expense with ID '10'.
+2025-11-29 19:33:23,663 INFO [main] c.r.d.Main [Main.java:68] - 'AmaraAnn' viewed all pending expenses.
+2025-11-29 19:34:02,506 INFO [main] c.r.d.d.ManagerFuncJDBCImpl [ManagerFuncJDBCImpl.java:39] - 'AmaraAnn' denied pending expense with ID '9'.
+2025-11-29 19:34:07,762 INFO [main] c.r.d.Main [Main.java:68] - 'AmaraAnn' viewed all pending expenses.
+2025-11-29 19:34:23,917 INFO [main] c.r.d.GenerateReport [GenerateReport.java:26] - 'AmaraAnn' generated a report of all approved expenses.
+2025-11-29 19:34:53,061 INFO [main] c.r.d.GenerateReport [GenerateReport.java:32] - 'AmaraAnn' generated a report of all approved expenses under the employee with ID '4'.
+2025-11-29 19:35:17,143 INFO [main] c.r.d.GenerateReport [GenerateReport.java:38] - 'AmaraAnn' generated a report of all approved expenses under the category 'Business'.
+2025-11-29 19:35:34,477 INFO [main] c.r.d.GenerateReport [GenerateReport.java:38] - 'AmaraAnn' generated a report of all approved expenses under the category 'Travel'.
+2025-11-29 19:36:08,282 INFO [main] c.r.d.GenerateReport [GenerateReport.java:44] - 'AmaraAnn' generated a report of all approved expenses under the date '2025-11-29'.
+2025-11-29 19:39:08,327 INFO [main] c.r.d.Main [Main.java:80] - Application quit.

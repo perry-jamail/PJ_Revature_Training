@@ -19,7 +19,7 @@ def view_approved_denied_by_username(username, connection):
     if len(expenses) > 0:
         df = pd.DataFrame(expenses, columns=['expense_id', 'employee_id', 'manager_username', 'name', 'submission_date', 'amount', 'category', 'status', 'description', 'manager_comment'])
         print(f"\n%% All Approved/Denied Expenses for '{username}' %%")
-        print(f"\n{tabulate(df, headers="keys", tablefmt="psql")}\n")
+        print(f"{tabulate(df, headers="keys", tablefmt="psql")}\n")
         logging.info(f"'{username}' viewed all Approved and Denied expenses associated with this account.")
     else:
         print(f"\nThere are no Approved or Denied expenses listed for '{username}'.\n")

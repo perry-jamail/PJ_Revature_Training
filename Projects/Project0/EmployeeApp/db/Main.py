@@ -23,16 +23,18 @@ username = ''
 def welcome():
     global logged_in, username
     login_or_create = input("Welcome to the Employee Expense Manager Application! Please enter (1) to login"
-                            " or (2) to create an account! > ")
+                            " or (2) to create an account! ('q' to quit) > ")
     if login_or_create == "1":
         logged_in, username = lg.login(connection)
         if logged_in:
             application()
     elif login_or_create == "2":
         lg.addCred(connection)
-        logged_in, username = lg.login(connection)
-        if logged_in:
-            application()
+        welcome()
+    elif login_or_create.lower() == "q":
+        print("Quitting application...")
+        logging.info("Application quit.")
+        sys.exit()
     else:
         print("Please enter either 1 or 2\n")
         welcome()
