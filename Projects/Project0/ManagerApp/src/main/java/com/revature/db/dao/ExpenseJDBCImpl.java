@@ -43,7 +43,7 @@ public class ExpenseJDBCImpl implements ExpenseDAO {
 
     public List<Expense> getAllExpenses() {
         connection = ConnectionUtil.dbConnection();
-        String getAllExpenses = "select * from expenses order by employee_id";
+        String getAllExpenses = "select * from expenses order by expense_id";
         List<Expense> expenseList = new ArrayList<>();
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(getAllExpenses);

@@ -64,6 +64,19 @@
             <version>9.5.0</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/tech.tablesaw/tablesaw-core -->
+        <dependency>
+            <groupId>tech.tablesaw</groupId>
+            <artifactId>tablesaw-core</artifactId>
+            <version>LATEST</version>
+        </dependency>
+
+        <!-- Force newer ClassGraph version -->
+        <dependency>
+            <groupId>io.github.classgraph</groupId>
+            <artifactId>classgraph</artifactId>
+            <version>4.8.184</version> <!-- or latest available -->
+        </dependency>
     </dependencies>
 
 </project>

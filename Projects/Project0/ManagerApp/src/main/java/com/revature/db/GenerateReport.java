@@ -5,6 +5,7 @@ import com.revature.db.service.ReportService;
 import com.revature.db.service.ReportServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import tech.tablesaw.api.*;
 
 import java.util.List;
 import java.util.Scanner;
@@ -62,16 +63,40 @@ public class GenerateReport {
             default:
                 System.out.println("Invalid input. Please enter a number between 1-7, or 'h'.");
                 reportOptions(username);
+                return;
         }
 
         if (printList == null) {
             System.out.println("There are no expenses with the specified search parameters.\n");
         } else {
-            System.out.println("\n************************* Start Report *************************");
+            Table resultTable = Table.create("Report");
+            resultTable.addColumns(
+                    IntColumn.create("ID"),
+                    IntColumn.create("Employee ID"),
+                    StringColumn.create("Manager Username"),
+                    StringColumn.create("Expense Name"),
+                    StringColumn.create("Submission Date"),
+                    FloatColumn.create("Amount"),
+                    StringColumn.create("Category"),
+                    StringColumn.create("Status"),
+                    StringColumn.create("Description"),
+                    StringColumn.create("Manager Comment")
+                    );
+
             for (Expense e : printList) {
-                System.out.println(e);
+                Row newRow = resultTable.appendRow();
+                newRow.setInt("ID", e.getId());
+                newRow.setInt("Employee ID", e.getEmployee_id());
+                newRow.setString("Manager Username", e.getManager_username());
+                newRow.setString("Expense Name", e.getName());
+                newRow.setString("Submission Date", e.getSubmission_date());
+                newRow.setFloat("Amount", e.getAmount());
+                newRow.setString("Category", e.getCategory());
+                newRow.setString("Status", e.getStatus());
+                newRow.setString("Description", e.getDescription());
+                newRow.setString("Manager Comment", e.getManager_comment());
             }
-            System.out.println("************************** End Report **************************\n");
+            System.out.println(resultTable.print() + "\n");
         }
     }
 }

@@ -14,9 +14,10 @@ import java.util.List;
 public class ExpenseServiceImpl implements ExpenseService {
     public Expense getExpense(int id) {
         ExpenseDAO expenseDAO = new ExpenseJDBCImpl();
-        if (id > 0) {
-            Expense expense = expenseDAO.getExpense(id);
-            return expense;
+        Expense returnE = expenseDAO.getExpense(id);
+
+        if (returnE != null) {
+            return returnE;
         } else {
             return null;
         }

@@ -5,6 +5,7 @@ import com.revature.db.service.ExpenseService;
 import com.revature.db.service.ExpenseServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import tech.tablesaw.api.*;
 
 import java.util.List;
 import java.util.Scanner;
@@ -59,11 +60,34 @@ public class Main {
                     if (results == null) {
                         System.out.println("\nNo Pending Expenses\n");
                     } else {
-                        System.out.println("\n************************* Pending Expenses *************************");
+                        Table resultTable = Table.create("Report");
+                        resultTable.addColumns(
+                                IntColumn.create("ID"),
+                                IntColumn.create("Employee ID"),
+                                StringColumn.create("Manager Username"),
+                                StringColumn.create("Expense Name"),
+                                StringColumn.create("Submission Date"),
+                                FloatColumn.create("Amount"),
+                                StringColumn.create("Category"),
+                                StringColumn.create("Status"),
+                                StringColumn.create("Description"),
+                                StringColumn.create("Manager Comment")
+                        );
+
                         for (Expense e : results) {
-                            System.out.println(e);
+                            Row newRow = resultTable.appendRow();
+                            newRow.setInt("ID", e.getId());
+                            newRow.setInt("Employee ID", e.getEmployee_id());
+                            newRow.setString("Manager Username", e.getManager_username());
+                            newRow.setString("Expense Name", e.getName());
+                            newRow.setString("Submission Date", e.getSubmission_date());
+                            newRow.setFloat("Amount", e.getAmount());
+                            newRow.setString("Category", e.getCategory());
+                            newRow.setString("Status", e.getStatus());
+                            newRow.setString("Description", e.getDescription());
+                            newRow.setString("Manager Comment", e.getManager_comment());
                         }
-                        System.out.println("***************************** End List *****************************\n");
+                        System.out.println(resultTable.print() + "\n");
                         logger.info("'{}' viewed all pending expenses.", username);
                     }
                     break;

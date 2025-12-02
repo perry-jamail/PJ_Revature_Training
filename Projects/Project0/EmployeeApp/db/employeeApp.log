@@ -308,3 +308,20 @@
 2025-11-29 20:09:10,276 - mysql.connector - INFO - plugin_name: caching_sha2_password
 2025-11-29 20:09:10,276 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
 2025-11-29 20:09:14,681 - root - INFO - Application quit.
+2025-11-29 21:40:19,225 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-29 21:40:19,225 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-29 21:40:19,225 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 21:40:36,432 - root - INFO - 'kenzierose' logged in.
+2025-11-29 21:40:59,254 - root - INFO - 'kenzierose' viewed all expenses associated with this account.
+2025-11-29 21:41:10,152 - root - INFO - Application quit.
+2025-11-30 20:27:13,556 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-11-30 20:27:13,557 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-11-30 20:27:13,557 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-30 20:27:33,440 - root - INFO - 'kenzierose' logged in.
+2025-11-30 20:27:37,034 - root - INFO - 'kenzierose' viewed all expenses associated with this account.
+2025-11-30 20:28:55,361 - root - INFO - 'kenzierose' added expense 'Plane tickets'.
+2025-11-30 20:30:29,992 - root - INFO - 'kenzierose' viewed all Approved and Denied expenses associated with this account.
+2025-11-30 20:30:52,079 - root - INFO - 'kenzierose' viewed all expenses associated with this account.
+2025-11-30 20:33:00,723 - root - INFO - 'kenzierose' added expense 'Testing monetary limit'.
+2025-11-30 20:33:22,815 - root - INFO - 'kenzierose' deleted pending expense 'Testing monetary limit'.
+2025-11-30 20:33:35,091 - root - INFO - Application quit.
