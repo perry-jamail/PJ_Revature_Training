@@ -344,3 +344,50 @@
 2025-12-01 18:08:54,515 INFO [main] c.r.d.GenerateReport [GenerateReport.java:58] - 'admin' generated a report of all expenses under the date '2025-11-24'.
 2025-12-01 18:09:07,879 INFO [main] c.r.d.GenerateReport [GenerateReport.java:58] - 'admin' generated a report of all expenses under the date '2025-11-23'.
 2025-12-01 18:09:13,854 INFO [main] c.r.d.Main [Main.java:103] - Application quit.
+2025-12-01 18:16:32,915 INFO [main] c.r.d.Login [Login.java:39] - 'admin' logged in.
+2025-12-01 18:16:36,645 INFO [main] c.r.d.Main [Main.java:91] - 'admin' viewed all pending expenses.
+2025-12-01 18:16:40,545 INFO [main] c.r.d.Main [Main.java:103] - Application quit.
+2025-12-01 18:16:52,246 WARN [main] c.r.d.Login [Login.java:43] - Unsuccessful login attempt for account 'admin'.
+2025-12-01 18:16:56,129 INFO [main] c.r.d.Login [Login.java:51] - Application quit.
+2025-12-02 16:49:17,788 INFO [main] c.r.d.Login [Login.java:81] - Account created with username 'Parks4321'.
+2025-12-02 16:49:32,884 INFO [main] c.r.d.Login [Login.java:39] - 'Parks4321' logged in.
+2025-12-02 16:49:36,684 INFO [main] c.r.d.Main [Main.java:91] - 'Parks4321' viewed all pending expenses.
+2025-12-02 16:50:27,530 INFO [main] c.r.d.d.ManagerFuncJDBCImpl [ManagerFuncJDBCImpl.java:24] - 'Parks4321' approved pending expense with ID '17'.
+2025-12-02 16:50:48,384 INFO [main] c.r.d.Main [Main.java:91] - 'Parks4321' viewed all pending expenses.
+2025-12-02 16:51:02,377 INFO [main] c.r.d.GenerateReport [GenerateReport.java:32] - 'Parks4321' generated a report of all approved expenses.
+2025-12-02 16:51:21,663 INFO [main] c.r.d.Main [Main.java:103] - Application quit.
+2025-12-02 16:59:08,448 INFO [main] c.r.d.Login [Login.java:81] - Account created with username 'ManagerEmma03'.
+2025-12-02 16:59:31,985 INFO [main] c.r.d.Login [Login.java:39] - 'ManagerEmma03' logged in.
+2025-12-02 16:59:44,363 INFO [main] c.r.d.Main [Main.java:91] - 'ManagerEmma03' viewed all pending expenses.
+2025-12-02 17:00:21,593 INFO [main] c.r.d.d.ManagerFuncJDBCImpl [ManagerFuncJDBCImpl.java:24] - 'ManagerEmma03' approved pending expense with ID '19'.
+2025-12-02 17:00:29,348 INFO [main] c.r.d.Main [Main.java:91] - 'ManagerEmma03' viewed all pending expenses.
+2025-12-02 17:00:41,763 INFO [main] c.r.d.GenerateReport [GenerateReport.java:32] - 'ManagerEmma03' generated a report of all approved expenses.
+2025-12-02 17:01:17,190 INFO [main] c.r.d.Main [Main.java:103] - Application quit.
+2025-12-03 13:01:55,695 INFO [main] c.r.d.Login [Login.java:39] - 'admin' logged in.
+2025-12-03 13:02:25,034 INFO [main] c.r.d.Login [Login.java:39] - 'admin' logged in.
+2025-12-03 13:02:27,869 INFO [main] c.r.d.Main [Main.java:91] - 'admin' viewed all pending expenses.
+2025-12-03 13:02:49,282 INFO [main] c.r.d.Main [Main.java:103] - Application quit.
+2025-12-03 23:15:54,203 INFO [main] c.r.d.Login [Login.java:39] - 'admin' logged in.
+2025-12-03 23:16:02,199 INFO [main] c.r.d.GenerateReport [GenerateReport.java:28] - 'admin' generated a report of all expenses.
+2025-12-04 13:02:01,783 INFO [main] c.r.d.Login [Login.java:81] - Account created with username 'demoManager'.
+2025-12-04 13:02:13,610 INFO [main] c.r.d.Login [Login.java:39] - 'demoManager' logged in.
+2025-12-04 13:02:36,680 INFO [main] c.r.d.Main [Main.java:91] - 'demoManager' viewed all pending expenses.
+2025-12-04 13:03:22,479 INFO [main] c.r.d.d.ManagerFuncJDBCImpl [ManagerFuncJDBCImpl.java:24] - 'demoManager' approved pending expense with ID '20'.
+2025-12-04 13:03:39,528 INFO [main] c.r.d.GenerateReport [GenerateReport.java:28] - 'demoManager' generated a report of all expenses.
+2025-12-04 13:03:52,590 INFO [main] c.r.d.Main [Main.java:103] - Application quit.
+2025-12-04 13:30:04,516 INFO [main] c.r.d.Login [Login.java:81] - Account created with username 'DemoManager1'.
+2025-12-04 13:30:18,646 INFO [main] c.r.d.Login [Login.java:39] - 'DemoManager1' logged in.
+2025-12-04 13:30:46,410 INFO [main] c.r.d.Main [Main.java:91] - 'DemoManager1' viewed all pending expenses.
+2025-12-04 13:31:34,973 INFO [main] c.r.d.d.ManagerFuncJDBCImpl [ManagerFuncJDBCImpl.java:24] - 'DemoManager1' approved pending expense with ID '21'.
+2025-12-04 13:31:39,306 INFO [main] c.r.d.Main [Main.java:91] - 'DemoManager1' viewed all pending expenses.
+2025-12-04 13:32:24,870 INFO [main] c.r.d.GenerateReport [GenerateReport.java:28] - 'DemoManager1' generated a report of all expenses.
+2025-12-04 13:32:36,184 INFO [main] c.r.d.GenerateReport [GenerateReport.java:32] - 'DemoManager1' generated a report of all approved expenses.
+2025-12-04 13:32:45,655 INFO [main] c.r.d.GenerateReport [GenerateReport.java:36] - 'DemoManager1' generated a report of all denied expenses.
+2025-12-04 13:32:50,811 INFO [main] c.r.d.GenerateReport [GenerateReport.java:40] - 'DemoManager1' generated a report of all pending expenses.
+2025-12-04 13:33:08,765 INFO [main] c.r.d.GenerateReport [GenerateReport.java:46] - 'DemoManager1' generated a report of all expenses under the employee with ID '9'.
+2025-12-04 13:33:22,720 INFO [main] c.r.d.GenerateReport [GenerateReport.java:52] - 'DemoManager1' generated a report of all expenses under the category 'Demo'.
+2025-12-04 13:33:32,183 INFO [main] c.r.d.GenerateReport [GenerateReport.java:52] - 'DemoManager1' generated a report of all expenses under the category 'Test'.
+2025-12-04 13:33:59,506 INFO [main] c.r.d.GenerateReport [GenerateReport.java:58] - 'DemoManager1' generated a report of all expenses under the date '2025-12-04'.
+2025-12-04 13:34:25,537 INFO [main] c.r.d.Main [Main.java:103] - Application quit.
+2025-12-04 13:35:56,409 INFO [main] c.r.d.Login [Login.java:39] - 'DemoManager1' logged in.
+2025-12-04 13:36:09,197 INFO [main] c.r.d.GenerateReport [GenerateReport.java:58] - 'DemoManager1' generated a report of all expenses under the date '2025-12-05'.

@@ -77,7 +77,7 @@ public class Login {
                 throw new RuntimeException(e);
             }
 
-            System.out.println("Account with the username '" + username + "' was successfully created.");
+            System.out.println("Account with the username '" + username + "' was successfully created.\n");
             logger.info("Account created with username '{}'.", username);
         } else if (username.equalsIgnoreCase("q")) {
             System.out.println("Quitting application...");

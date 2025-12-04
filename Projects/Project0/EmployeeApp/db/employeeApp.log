@@ -325,3 +325,43 @@
 2025-11-30 20:33:00,723 - root - INFO - 'kenzierose' added expense 'Testing monetary limit'.
 2025-11-30 20:33:22,815 - root - INFO - 'kenzierose' deleted pending expense 'Testing monetary limit'.
 2025-11-30 20:33:35,091 - root - INFO - Application quit.
+2025-12-02 16:42:09,045 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-12-02 16:42:09,045 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-12-02 16:42:09,045 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-02 16:42:57,849 - root - INFO - Account created with username 'gigi1234'.
+2025-12-02 16:43:28,867 - root - INFO - 'gigi1234' logged in.
+2025-12-02 16:44:33,851 - root - ERROR - 'gigi1234' has entered an invalid amount when creating a new expense.
+2025-12-02 16:44:43,932 - root - ERROR - 'gigi1234' has entered too short of a description when creating a new expense.
+2025-12-02 16:45:35,804 - root - INFO - 'gigi1234' added expense 'Chicago conference'.
+2025-12-02 16:45:42,969 - root - INFO - 'gigi1234' viewed all expenses associated with this account.
+2025-12-02 16:47:18,951 - root - ERROR - 'gigi1234' has entered too short of a description when creating a new expense.
+2025-12-02 16:48:01,218 - root - INFO - 'gigi1234' added expense 'Lunch with client'.
+2025-12-02 16:48:32,617 - root - INFO - Application quit.
+2025-12-02 16:55:45,759 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-12-02 16:55:45,760 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-12-02 16:55:45,760 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-02 16:56:28,618 - root - INFO - Account created with username 'Emma03'.
+2025-12-02 16:56:47,556 - root - INFO - 'Emma03' logged in.
+2025-12-02 16:57:28,456 - root - INFO - 'Emma03' added expense 'Diapers'.
+2025-12-02 16:57:56,471 - root - INFO - Application quit.
+2025-12-04 12:56:22,971 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-12-04 12:56:22,972 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-12-04 12:56:22,972 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-04 12:56:41,247 - root - INFO - Account created with username 'demo'.
+2025-12-04 12:56:48,919 - root - INFO - 'demo' logged in.
+2025-12-04 12:58:41,772 - root - INFO - 'demo' added expense 'Example Expense 1'.
+2025-12-04 12:58:44,724 - root - INFO - 'demo' viewed all expenses associated with this account.
+2025-12-04 12:59:09,195 - root - INFO - Application quit.
+2025-12-04 13:24:51,516 - mysql.connector - INFO - package: mysql.connector.plugins
+2025-12-04 13:24:51,516 - mysql.connector - INFO - plugin_name: caching_sha2_password
+2025-12-04 13:24:51,517 - mysql.connector - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-12-04 13:25:27,795 - root - INFO - Account created with username 'demo1'.
+2025-12-04 13:25:41,156 - root - INFO - 'demo1' logged in.
+2025-12-04 13:27:04,267 - root - INFO - 'demo1' added expense 'Demo Expense 1'.
+2025-12-04 13:27:48,689 - root - INFO - 'demo1' added expense 'Demo Expense 2'.
+2025-12-04 13:28:01,628 - root - INFO - 'demo1' viewed all expenses associated with this account.
+2025-12-04 13:29:15,425 - root - INFO - 'demo1' edited pending expense 'New Expense Title'.
+2025-12-04 13:29:18,834 - root - INFO - 'demo1' viewed all expenses associated with this account.
+2025-12-04 13:29:33,091 - root - INFO - 'demo1' deleted pending expense 'New Expense Title'.
+2025-12-04 13:29:36,047 - root - INFO - 'demo1' viewed all expenses associated with this account.
+2025-12-04 13:29:46,363 - root - INFO - Application quit.
