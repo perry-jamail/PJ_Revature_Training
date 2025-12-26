@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69d7d161-2fca-46d0-b167-3166e90a2c32" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week7/SeleniumDemo/src/test/java/com/revature/selenium/Test01SelBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week7/SeleniumDemo/src/test/java/com/revature/selenium/Test02FindElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week7/SeleniumDemo/src/test/java/com/revature/selenium/Test03MondayPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week8/CucumberBDD/src/test/java/com/revature/cuc/runners/BasicTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week8/CucumberBDD/src/test/java/com/revature/cuc/steps/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week8/CucumberBDD/src/test/resources/features/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BehaveDemo/features/steps/login_steps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/hooks_test.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/steps/hooks_test_steps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstBehaveProject/environment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstBehaveProject/features/registration.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstBehaveProject/features/steps/registration_steps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_assignments/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_assignments/first_selenium_project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_assignments/first_selenium_project/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_assignments/first_selenium_project/tests/test_navigation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_assignments/first_selenium_project/tests/test_page_validation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_assignments/first_selenium_project/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_assignments/first_selenium_project/utils/driver_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_practice/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_practice/practice1.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="37ON5iYxh64GzWBo06MfWpeVSLi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69d7d161-2fca-46d0-b167-3166e90a2c32" name="Changes" comment="" />
+      <created>1766769976273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766769976273</updated>
+    </task>
+    <servers />
+  </component>
+</project>
