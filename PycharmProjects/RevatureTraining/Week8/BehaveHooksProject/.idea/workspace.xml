@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69d7d161-2fca-46d0-b167-3166e90a2c32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week7/SeleniumDemo/src/test/java/com/revature/selenium/Test01SelBasics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week7/SeleniumDemo/src/test/java/com/revature/selenium/Test02FindElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week7/SeleniumDemo/src/test/java/com/revature/selenium/Test03MondayPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week8/CucumberBDD/src/test/java/com/revature/cuc/runners/BasicTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week8/CucumberBDD/src/test/java/com/revature/cuc/steps/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../IdeaProjects/RevatureTraining/Week8/CucumberBDD/src/test/resources/features/login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BehaveDemo/features/steps/login_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/environment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/hooks_test.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/hooks_test_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FirstBehaveProject/environment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FirstBehaveProject/features/registration.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FirstBehaveProject/features/steps/registration_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_assignments/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_assignments/first_selenium_project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_assignments/first_selenium_project/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_assignments/first_selenium_project/tests/test_navigation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_assignments/first_selenium_project/tests/test_page_validation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_assignments/first_selenium_project/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_assignments/first_selenium_project/utils/driver_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_practice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumPracticeAssignments/src/com/revature/selenium_practice/practice1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="37ON5iYxh64GzWBo06MfWpeVSLi" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -63,7 +39,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/perry/Revature/PycharmProjects/RevatureTraining/Week8/BehaveHooksProject"
   }
 }]]></component>
   <component name="SharedIndexes">
